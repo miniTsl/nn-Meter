@@ -1,0 +1,2822 @@
+{
+    "BF_add_add": {
+        "add_1": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_add_add_1.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "add_2": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_add_add_2.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_add_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_add_avgpool": {
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_avgpool_add.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_avgpool_avgpool.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_avgpool_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_add_concat": {
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_concat_add.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_concat_concat.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_concat_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_add_conv": {
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_conv_add.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_conv_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_conv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_add_convtrans": {
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_convtrans_add.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_convtrans_convtrans.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_convtrans_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_add_dwconv": {
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_dwconv_add.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_dwconv_dwconv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_dwconv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_add_fc": {
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_fc_add.pt",
+            "shapes": [
+                [
+                    428
+                ],
+                [
+                    428
+                ]
+            ]
+        },
+        "fc": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_fc_fc.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_fc_block.pt",
+            "shapes": [
+                [
+                    428
+                ],
+                [
+                    428
+                ]
+            ]
+        }
+    },
+    "BF_add_relu": {
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_relu_add.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_relu_relu.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_relu_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_add_reshape": {
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_reshape_add.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_reshape_reshape.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_add_reshape_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_avgpool_add": {
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_avgpool_add_avgpool.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_avgpool_add_add.pt",
+            "shapes": [
+                [
+                    64,
+                    14,
+                    14
+                ],
+                [
+                    64,
+                    14,
+                    14
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_avgpool_add_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    14,
+                    14
+                ]
+            ]
+        }
+    },
+    "BF_avgpool_avgpool": {
+        "avgpool_1": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_avgpool_avgpool_avgpool_1.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "avgpool_2": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_avgpool_avgpool_avgpool_2.pt",
+            "shapes": [
+                [
+                    64,
+                    14,
+                    14
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_avgpool_avgpool_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_avgpool_concat": {
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_avgpool_concat_avgpool.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_avgpool_concat_concat.pt",
+            "shapes": [
+                [
+                    64,
+                    14,
+                    14
+                ],
+                [
+                    64,
+                    14,
+                    14
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_avgpool_concat_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    14,
+                    14
+                ]
+            ]
+        }
+    },
+    "BF_avgpool_conv": {
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_avgpool_conv_avgpool.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_avgpool_conv_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    14,
+                    14
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_avgpool_conv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_avgpool_convtrans": {
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_avgpool_convtrans_avgpool.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_avgpool_convtrans_convtrans.pt",
+            "shapes": [
+                [
+                    64,
+                    14,
+                    14
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_avgpool_convtrans_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_avgpool_dwconv": {
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_avgpool_dwconv_avgpool.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_avgpool_dwconv_dwconv.pt",
+            "shapes": [
+                [
+                    64,
+                    14,
+                    14
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_avgpool_dwconv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_avgpool_relu": {
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_avgpool_relu_avgpool.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_avgpool_relu_relu.pt",
+            "shapes": [
+                [
+                    64,
+                    14,
+                    14
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_avgpool_relu_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_avgpool_reshape": {
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_avgpool_reshape_avgpool.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_avgpool_reshape_reshape.pt",
+            "shapes": [
+                [
+                    64,
+                    14,
+                    14
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_avgpool_reshape_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_bn_relu": {
+        "bn": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_bn_relu_bn.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_bn_relu_relu.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_bn_relu_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_concat_add": {
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_add_concat.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_add_add.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ],
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_add_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_concat_avgpool": {
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_avgpool_concat.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_avgpool_avgpool.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_avgpool_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_concat_concat": {
+        "concat_1": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_concat_concat_1.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "concat_2": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_concat_concat_2.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ],
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_concat_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_concat_conv": {
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_conv_concat.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_conv_conv.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_conv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_concat_convtrans": {
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_convtrans_concat.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_convtrans_convtrans.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_convtrans_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_concat_dwconv": {
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_dwconv_concat.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_dwconv_dwconv.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_dwconv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_concat_fc": {
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_fc_concat.pt",
+            "shapes": [
+                [
+                    428
+                ],
+                [
+                    428
+                ]
+            ]
+        },
+        "fc": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_fc_fc.pt",
+            "shapes": [
+                [
+                    856
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_fc_block.pt",
+            "shapes": [
+                [
+                    428
+                ],
+                [
+                    428
+                ]
+            ]
+        }
+    },
+    "BF_concat_relu": {
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_relu_concat.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_relu_relu.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_relu_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_concat_reshape": {
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_reshape_concat.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_reshape_reshape.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_concat_reshape_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_conv_add": {
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_add_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_add_add.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ],
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_add_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_conv_avgpool": {
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_avgpool_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_avgpool_avgpool.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_avgpool_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_conv_bn": {
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_bn_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "bn": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_bn_bn.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_bn_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_conv_concat": {
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_concat_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_concat_concat.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ],
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_concat_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_conv_conv": {
+        "conv_1": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_conv_conv_1.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "conv_2": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_conv_conv_2.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_conv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_conv_convtrans": {
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_convtrans_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_convtrans_convtrans.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_convtrans_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_conv_dwconv": {
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_dwconv_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_dwconv_dwconv.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_dwconv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_conv_hswish": {
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_hswish_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "hswish": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_hswish_hswish.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_hswish_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_conv_relu": {
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_relu_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_relu_relu.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_relu_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_conv_reshape": {
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_reshape_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_reshape_reshape.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_reshape_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_conv_se": {
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_se_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "se": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_se_se.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_conv_se_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_convtrans_add": {
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_convtrans_add_convtrans.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_convtrans_add_add.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ],
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_convtrans_add_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_convtrans_avgpool": {
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_convtrans_avgpool_convtrans.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_convtrans_avgpool_avgpool.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_convtrans_avgpool_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_convtrans_concat": {
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_convtrans_concat_convtrans.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_convtrans_concat_concat.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ],
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_convtrans_concat_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_convtrans_conv": {
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_convtrans_conv_convtrans.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_convtrans_conv_conv.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_convtrans_conv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_convtrans_convtrans": {
+        "convtrans_1": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_convtrans_convtrans_convtrans_1.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "convtrans_2": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_convtrans_convtrans_convtrans_2.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_convtrans_convtrans_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_convtrans_dwconv": {
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_convtrans_dwconv_convtrans.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_convtrans_dwconv_dwconv.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_convtrans_dwconv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_convtrans_relu": {
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_convtrans_relu_convtrans.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_convtrans_relu_relu.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_convtrans_relu_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_convtrans_reshape": {
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_convtrans_reshape_convtrans.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_convtrans_reshape_reshape.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_convtrans_reshape_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_dwconv_add": {
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_add_dwconv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_add_add.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_add_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_dwconv_avgpool": {
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_avgpool_dwconv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_avgpool_avgpool.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_avgpool_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_dwconv_bn": {
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_bn_dwconv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "bn": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_bn_bn.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_bn_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_dwconv_concat": {
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_concat_dwconv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_concat_concat.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_concat_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_dwconv_conv": {
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_conv_dwconv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_conv_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_conv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_dwconv_convtrans": {
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_convtrans_dwconv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_convtrans_convtrans.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_convtrans_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_dwconv_dwconv": {
+        "dwconv_1": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_dwconv_dwconv_1.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "dwconv_2": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_dwconv_dwconv_2.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_dwconv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_dwconv_relu": {
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_relu_dwconv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_relu_relu.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_relu_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_dwconv_reshape": {
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_reshape_dwconv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_reshape_reshape.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_dwconv_reshape_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_fc_add": {
+        "fc": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_fc_add_fc.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        },
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_fc_add_add.pt",
+            "shapes": [
+                [
+                    128
+                ],
+                [
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_fc_add_block.pt",
+            "shapes": [
+                [
+                    428
+                ],
+                [
+                    128
+                ]
+            ]
+        }
+    },
+    "BF_fc_concat": {
+        "fc": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_fc_concat_fc.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        },
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_fc_concat_concat.pt",
+            "shapes": [
+                [
+                    128
+                ],
+                [
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_fc_concat_block.pt",
+            "shapes": [
+                [
+                    428
+                ],
+                [
+                    128
+                ]
+            ]
+        }
+    },
+    "BF_fc_fc": {
+        "fc_1": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_fc_fc_fc_1.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        },
+        "fc_2": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_fc_fc_fc_2.pt",
+            "shapes": [
+                [
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_fc_fc_block.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        }
+    },
+    "BF_fc_relu": {
+        "fc": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_fc_relu_fc.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        },
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_fc_relu_relu.pt",
+            "shapes": [
+                [
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_fc_relu_block.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        }
+    },
+    "BF_fc_reshape": {
+        "fc": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_fc_reshape_fc.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        },
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_fc_reshape_reshape.pt",
+            "shapes": [
+                [
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_fc_reshape_block.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        }
+    },
+    "BF_relu_add": {
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_add_relu.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_add_add.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_add_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_relu_avgpool": {
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_avgpool_relu.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_avgpool_avgpool.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_avgpool_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_relu_concat": {
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_concat_relu.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_concat_concat.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_concat_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_relu_conv": {
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_conv_relu.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_conv_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_conv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_relu_convtrans": {
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_convtrans_relu.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_convtrans_convtrans.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_convtrans_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_relu_dwconv": {
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_dwconv_relu.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_dwconv_dwconv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_dwconv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_relu_fc": {
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_fc_relu.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        },
+        "fc": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_fc_fc.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_fc_block.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        }
+    },
+    "BF_relu_relu": {
+        "relu_1": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_relu_relu_1.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "relu_2": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_relu_relu_2.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_relu_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_relu_reshape": {
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_reshape_relu.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_reshape_reshape.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_relu_reshape_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_reshape_add": {
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_add_reshape.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_add_add.pt",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_add_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_reshape_avgpool": {
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_avgpool_reshape.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_avgpool_avgpool.pt",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_avgpool_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_reshape_concat": {
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_concat_reshape.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_concat_concat.pt",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_concat_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_reshape_conv": {
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_conv_reshape.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_conv_conv.pt",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_conv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_reshape_convtrans": {
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_convtrans_reshape.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_convtrans_convtrans.pt",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_convtrans_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_reshape_dwconv": {
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_dwconv_reshape.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_dwconv_dwconv.pt",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_dwconv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_reshape_fc": {
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_fc_reshape.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        },
+        "fc": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_fc_fc.pt",
+            "shapes": [
+                [
+                    1,
+                    2,
+                    214
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_fc_block.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        }
+    },
+    "BF_reshape_relu": {
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_relu_reshape.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_relu_relu.pt",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_relu_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_reshape_reshape": {
+        "reshape_1": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_reshape_reshape_1.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "reshape_2": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_reshape_reshape_2.pt",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_reshape_reshape_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_se_relu": {
+        "se": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_se_relu_se.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_se_relu_relu.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/fusion_rule_test/testcases/BF_se_relu_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    }
+}

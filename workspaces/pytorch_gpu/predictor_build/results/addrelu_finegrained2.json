@@ -1,0 +1,284 @@
+{
+    "addrelu": {
+        "6V11P6": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/addrelu_finegrained2_6V11P6.pt",
+            "shapes": [
+                [
+                    122,
+                    7,
+                    7
+                ]
+            ],
+            "config": {
+                "CIN": 122,
+                "HW": 7
+            }
+        },
+        "5RFAXH": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/addrelu_finegrained2_5RFAXH.pt",
+            "shapes": [
+                [
+                    143,
+                    7,
+                    7
+                ]
+            ],
+            "config": {
+                "CIN": 143,
+                "HW": 7
+            }
+        },
+        "38I3F4": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/addrelu_finegrained2_38I3F4.pt",
+            "shapes": [
+                [
+                    107,
+                    7,
+                    7
+                ]
+            ],
+            "config": {
+                "CIN": 107,
+                "HW": 7
+            }
+        },
+        "BC1B66": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/addrelu_finegrained2_BC1B66.pt",
+            "shapes": [
+                [
+                    222,
+                    7,
+                    7
+                ]
+            ],
+            "config": {
+                "CIN": 222,
+                "HW": 7
+            }
+        },
+        "YGR9VG": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/addrelu_finegrained2_YGR9VG.pt",
+            "shapes": [
+                [
+                    115,
+                    7,
+                    7
+                ]
+            ],
+            "config": {
+                "CIN": 115,
+                "HW": 7
+            }
+        },
+        "0LUFW2": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/addrelu_finegrained2_0LUFW2.pt",
+            "shapes": [
+                [
+                    111,
+                    7,
+                    7
+                ]
+            ],
+            "config": {
+                "CIN": 111,
+                "HW": 7
+            }
+        },
+        "L4G7EM": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/addrelu_finegrained2_L4G7EM.pt",
+            "shapes": [
+                [
+                    199,
+                    7,
+                    7
+                ]
+            ],
+            "config": {
+                "CIN": 199,
+                "HW": 7
+            }
+        },
+        "O58O5A": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/addrelu_finegrained2_O58O5A.pt",
+            "shapes": [
+                [
+                    128,
+                    7,
+                    7
+                ]
+            ],
+            "config": {
+                "CIN": 128,
+                "HW": 7
+            }
+        },
+        "2IIEJL": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/addrelu_finegrained2_2IIEJL.pt",
+            "shapes": [
+                [
+                    150,
+                    7,
+                    7
+                ]
+            ],
+            "config": {
+                "CIN": 150,
+                "HW": 7
+            }
+        },
+        "75O3VS": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/addrelu_finegrained2_75O3VS.pt",
+            "shapes": [
+                [
+                    161,
+                    7,
+                    7
+                ]
+            ],
+            "config": {
+                "CIN": 161,
+                "HW": 7
+            }
+        },
+        "7LX213": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/addrelu_finegrained2_7LX213.pt",
+            "shapes": [
+                [
+                    153,
+                    7,
+                    7
+                ]
+            ],
+            "config": {
+                "CIN": 153,
+                "HW": 7
+            }
+        },
+        "56BWJ3": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/addrelu_finegrained2_56BWJ3.pt",
+            "shapes": [
+                [
+                    198,
+                    7,
+                    7
+                ]
+            ],
+            "config": {
+                "CIN": 198,
+                "HW": 7
+            }
+        },
+        "JSBTFL": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/addrelu_finegrained2_JSBTFL.pt",
+            "shapes": [
+                [
+                    131,
+                    7,
+                    7
+                ]
+            ],
+            "config": {
+                "CIN": 131,
+                "HW": 7
+            }
+        },
+        "I9QISR": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/addrelu_finegrained2_I9QISR.pt",
+            "shapes": [
+                [
+                    121,
+                    7,
+                    7
+                ]
+            ],
+            "config": {
+                "CIN": 121,
+                "HW": 7
+            }
+        },
+        "NDWRQ4": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/addrelu_finegrained2_NDWRQ4.pt",
+            "shapes": [
+                [
+                    129,
+                    7,
+                    7
+                ]
+            ],
+            "config": {
+                "CIN": 129,
+                "HW": 7
+            }
+        },
+        "B2KJ1R": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/addrelu_finegrained2_B2KJ1R.pt",
+            "shapes": [
+                [
+                    209,
+                    7,
+                    7
+                ]
+            ],
+            "config": {
+                "CIN": 209,
+                "HW": 7
+            }
+        },
+        "TLWZFT": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/addrelu_finegrained2_TLWZFT.pt",
+            "shapes": [
+                [
+                    215,
+                    7,
+                    7
+                ]
+            ],
+            "config": {
+                "CIN": 215,
+                "HW": 7
+            }
+        },
+        "NEXS3T": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/addrelu_finegrained2_NEXS3T.pt",
+            "shapes": [
+                [
+                    159,
+                    7,
+                    7
+                ]
+            ],
+            "config": {
+                "CIN": 159,
+                "HW": 7
+            }
+        },
+        "9NEICA": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/addrelu_finegrained2_9NEICA.pt",
+            "shapes": [
+                [
+                    113,
+                    7,
+                    7
+                ]
+            ],
+            "config": {
+                "CIN": 113,
+                "HW": 7
+            }
+        },
+        "ZYM691": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/addrelu_finegrained2_ZYM691.pt",
+            "shapes": [
+                [
+                    187,
+                    7,
+                    7
+                ]
+            ],
+            "config": {
+                "CIN": 187,
+                "HW": 7
+            }
+        }
+    }
+}

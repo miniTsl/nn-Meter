@@ -43,3 +43,7 @@ cover/
 
 # Sphinx documentation
 docs/_build/
+
+# workspace
+*.pt
+*.pkl

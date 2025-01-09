@@ -1,0 +1,5784 @@
+{
+    "avgpool": {
+        "IJZ7JJ": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_IJZ7JJ.pt",
+            "shapes": [
+                [
+                    277,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 277,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "6CMS4S": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_6CMS4S.pt",
+            "shapes": [
+                [
+                    569,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 569,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "QEK14B": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_QEK14B.pt",
+            "shapes": [
+                [
+                    606,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 606,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "OE4PYK": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_OE4PYK.pt",
+            "shapes": [
+                [
+                    462,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 462,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "Q6WXW2": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_Q6WXW2.pt",
+            "shapes": [
+                [
+                    513,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 513,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "WREZAZ": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_WREZAZ.pt",
+            "shapes": [
+                [
+                    586,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 586,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "BZLVEL": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_BZLVEL.pt",
+            "shapes": [
+                [
+                    459,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 459,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "12WVA1": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_12WVA1.pt",
+            "shapes": [
+                [
+                    542,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 542,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "GJOFQ6": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_GJOFQ6.pt",
+            "shapes": [
+                [
+                    437,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 437,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "4WGPBX": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_4WGPBX.pt",
+            "shapes": [
+                [
+                    350,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 350,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "NBE2V8": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_NBE2V8.pt",
+            "shapes": [
+                [
+                    340,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 340,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "4LBV7E": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_4LBV7E.pt",
+            "shapes": [
+                [
+                    276,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 276,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "333WZB": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_333WZB.pt",
+            "shapes": [
+                [
+                    422,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 422,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "VR4AYQ": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_VR4AYQ.pt",
+            "shapes": [
+                [
+                    581,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 581,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "DI8V0P": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_DI8V0P.pt",
+            "shapes": [
+                [
+                    328,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 328,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "S8PW7W": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_S8PW7W.pt",
+            "shapes": [
+                [
+                    361,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 361,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "T7IFAT": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_T7IFAT.pt",
+            "shapes": [
+                [
+                    440,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 440,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "VYRTWE": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_VYRTWE.pt",
+            "shapes": [
+                [
+                    566,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 566,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "3XTFTH": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_3XTFTH.pt",
+            "shapes": [
+                [
+                    490,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 490,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "61WDDK": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_61WDDK.pt",
+            "shapes": [
+                [
+                    389,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 389,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "L5JUT1": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_L5JUT1.pt",
+            "shapes": [
+                [
+                    279,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 279,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "QLZY59": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_QLZY59.pt",
+            "shapes": [
+                [
+                    231,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 231,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "SRVJXI": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_SRVJXI.pt",
+            "shapes": [
+                [
+                    133,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 133,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "2NTU14": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_2NTU14.pt",
+            "shapes": [
+                [
+                    128,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 128,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "EBDOEG": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_EBDOEG.pt",
+            "shapes": [
+                [
+                    144,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 144,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "7FW1YR": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_7FW1YR.pt",
+            "shapes": [
+                [
+                    196,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 196,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "SINOO4": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_SINOO4.pt",
+            "shapes": [
+                [
+                    158,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 158,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "WRKA4F": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_WRKA4F.pt",
+            "shapes": [
+                [
+                    120,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 120,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "CXYTJB": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_CXYTJB.pt",
+            "shapes": [
+                [
+                    220,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 220,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "GZTHXT": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_GZTHXT.pt",
+            "shapes": [
+                [
+                    125,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 125,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "XNFT45": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_XNFT45.pt",
+            "shapes": [
+                [
+                    241,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 241,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "ENMRVS": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_ENMRVS.pt",
+            "shapes": [
+                [
+                    206,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 206,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "VUN1LW": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_VUN1LW.pt",
+            "shapes": [
+                [
+                    190,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 190,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "HYDV03": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_HYDV03.pt",
+            "shapes": [
+                [
+                    145,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 145,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "N9PDY6": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_N9PDY6.pt",
+            "shapes": [
+                [
+                    147,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 147,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "R7NHZ9": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_R7NHZ9.pt",
+            "shapes": [
+                [
+                    131,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 131,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "1B32SB": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_1B32SB.pt",
+            "shapes": [
+                [
+                    179,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 179,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "EC5MOM": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_EC5MOM.pt",
+            "shapes": [
+                [
+                    283,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 283,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "EJABO1": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_EJABO1.pt",
+            "shapes": [
+                [
+                    122,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 122,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "KN9EQ0": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_KN9EQ0.pt",
+            "shapes": [
+                [
+                    142,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 142,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "4JXY24": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_4JXY24.pt",
+            "shapes": [
+                [
+                    219,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 219,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "QD0NGZ": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_QD0NGZ.pt",
+            "shapes": [
+                [
+                    268,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 268,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "EU120H": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_EU120H.pt",
+            "shapes": [
+                [
+                    176,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 176,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "NZWIEA": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_NZWIEA.pt",
+            "shapes": [
+                [
+                    149,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 149,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "A1CP2N": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_A1CP2N.pt",
+            "shapes": [
+                [
+                    213,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 213,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "WWR3AH": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_WWR3AH.pt",
+            "shapes": [
+                [
+                    201,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 201,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "6NLP80": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_6NLP80.pt",
+            "shapes": [
+                [
+                    119,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 119,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "FJDBY7": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_FJDBY7.pt",
+            "shapes": [
+                [
+                    175,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 175,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "K9DULT": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_K9DULT.pt",
+            "shapes": [
+                [
+                    141,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 141,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "3AUHCH": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_3AUHCH.pt",
+            "shapes": [
+                [
+                    232,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 232,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "Z8R3K9": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_Z8R3K9.pt",
+            "shapes": [
+                [
+                    151,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 151,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "SWNM3K": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_SWNM3K.pt",
+            "shapes": [
+                [
+                    251,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 251,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "WQFNY7": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_WQFNY7.pt",
+            "shapes": [
+                [
+                    173,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 173,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "16Y0XP": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_16Y0XP.pt",
+            "shapes": [
+                [
+                    165,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 165,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "CSX8C8": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_CSX8C8.pt",
+            "shapes": [
+                [
+                    245,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 245,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "Y8UDJV": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_Y8UDJV.pt",
+            "shapes": [
+                [
+                    156,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 156,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "8NUWIV": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_8NUWIV.pt",
+            "shapes": [
+                [
+                    143,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 143,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "2P86FW": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_2P86FW.pt",
+            "shapes": [
+                [
+                    226,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 226,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "KFOURV": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_KFOURV.pt",
+            "shapes": [
+                [
+                    274,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 274,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "OL2IV4": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_OL2IV4.pt",
+            "shapes": [
+                [
+                    260,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 260,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "L32YHT": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_L32YHT.pt",
+            "shapes": [
+                [
+                    45,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 45,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "KVMXOR": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_KVMXOR.pt",
+            "shapes": [
+                [
+                    38,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 38,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "VTNNQG": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_VTNNQG.pt",
+            "shapes": [
+                [
+                    47,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 47,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "MB08BM": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_MB08BM.pt",
+            "shapes": [
+                [
+                    29,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 29,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "LWUZMF": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_LWUZMF.pt",
+            "shapes": [
+                [
+                    55,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 55,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "NOQE6J": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_NOQE6J.pt",
+            "shapes": [
+                [
+                    40,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 40,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "VQASHP": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_VQASHP.pt",
+            "shapes": [
+                [
+                    48,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 48,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "KZVLHJ": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_KZVLHJ.pt",
+            "shapes": [
+                [
+                    34,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 34,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "9CW8IK": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_9CW8IK.pt",
+            "shapes": [
+                [
+                    28,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 28,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "S87VZC": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_S87VZC.pt",
+            "shapes": [
+                [
+                    59,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 59,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "VKFOOZ": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_VKFOOZ.pt",
+            "shapes": [
+                [
+                    50,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 50,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "HGEWRZ": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_HGEWRZ.pt",
+            "shapes": [
+                [
+                    26,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 26,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "10V4M8": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_10V4M8.pt",
+            "shapes": [
+                [
+                    33,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 33,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "YD03GU": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_YD03GU.pt",
+            "shapes": [
+                [
+                    43,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 43,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "19X7UF": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_19X7UF.pt",
+            "shapes": [
+                [
+                    39,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 39,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "X2GBP5": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_X2GBP5.pt",
+            "shapes": [
+                [
+                    60,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 60,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "D7WB18": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_D7WB18.pt",
+            "shapes": [
+                [
+                    46,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 46,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "Y285MV": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_Y285MV.pt",
+            "shapes": [
+                [
+                    56,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 56,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "0K1OWA": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_0K1OWA.pt",
+            "shapes": [
+                [
+                    53,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 53,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "L8ZDV0": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_L8ZDV0.pt",
+            "shapes": [
+                [
+                    49,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 49,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "WHBF60": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_WHBF60.pt",
+            "shapes": [
+                [
+                    30,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 30,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "WECPX5": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_WECPX5.pt",
+            "shapes": [
+                [
+                    46,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 46,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "SCHT5O": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_SCHT5O.pt",
+            "shapes": [
+                [
+                    47,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 47,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "8QMOXT": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_8QMOXT.pt",
+            "shapes": [
+                [
+                    60,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 60,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "L50YQ0": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_L50YQ0.pt",
+            "shapes": [
+                [
+                    59,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 59,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "6Q1RW9": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_6Q1RW9.pt",
+            "shapes": [
+                [
+                    41,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 41,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "U91DGV": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_U91DGV.pt",
+            "shapes": [
+                [
+                    61,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 61,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "AKKLWL": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_AKKLWL.pt",
+            "shapes": [
+                [
+                    45,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 45,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "4TRT0Q": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_4TRT0Q.pt",
+            "shapes": [
+                [
+                    29,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 29,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "LJ2JE6": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_LJ2JE6.pt",
+            "shapes": [
+                [
+                    63,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 63,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "ETZB1M": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_ETZB1M.pt",
+            "shapes": [
+                [
+                    36,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 36,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "0R8E0W": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_0R8E0W.pt",
+            "shapes": [
+                [
+                    32,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 32,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "FK1SCY": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_FK1SCY.pt",
+            "shapes": [
+                [
+                    54,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 54,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "0Q94KX": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_0Q94KX.pt",
+            "shapes": [
+                [
+                    34,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 34,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "UAUML6": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_UAUML6.pt",
+            "shapes": [
+                [
+                    56,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 56,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "9F1U1L": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_9F1U1L.pt",
+            "shapes": [
+                [
+                    58,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 58,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "QOA8V7": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_QOA8V7.pt",
+            "shapes": [
+                [
+                    31,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 31,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "0S7IKB": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_0S7IKB.pt",
+            "shapes": [
+                [
+                    40,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 40,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "5852XU": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_5852XU.pt",
+            "shapes": [
+                [
+                    42,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 42,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "U5TACV": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_U5TACV.pt",
+            "shapes": [
+                [
+                    55,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 55,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "7O6WOB": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_7O6WOB.pt",
+            "shapes": [
+                [
+                    186,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 186,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "FD4CS4": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_FD4CS4.pt",
+            "shapes": [
+                [
+                    127,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 127,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "NC7UJV": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_NC7UJV.pt",
+            "shapes": [
+                [
+                    156,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 156,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "F0FHW6": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_F0FHW6.pt",
+            "shapes": [
+                [
+                    200,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 200,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "08MS6X": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_08MS6X.pt",
+            "shapes": [
+                [
+                    196,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 196,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "M5IQWT": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_M5IQWT.pt",
+            "shapes": [
+                [
+                    180,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 180,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "1NZSBH": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_1NZSBH.pt",
+            "shapes": [
+                [
+                    173,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 173,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "XK2ZW2": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_XK2ZW2.pt",
+            "shapes": [
+                [
+                    203,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 203,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "P5A4WK": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_P5A4WK.pt",
+            "shapes": [
+                [
+                    209,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 209,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "1B9GN3": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_1B9GN3.pt",
+            "shapes": [
+                [
+                    119,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 119,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "6JNEZB": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_6JNEZB.pt",
+            "shapes": [
+                [
+                    239,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 239,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "E6OU6D": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_E6OU6D.pt",
+            "shapes": [
+                [
+                    152,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 152,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "YIZKYH": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_YIZKYH.pt",
+            "shapes": [
+                [
+                    267,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 267,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "ZSAV9Q": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_ZSAV9Q.pt",
+            "shapes": [
+                [
+                    266,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 266,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "DJ97HT": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_DJ97HT.pt",
+            "shapes": [
+                [
+                    142,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 142,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "L4JJMR": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_L4JJMR.pt",
+            "shapes": [
+                [
+                    245,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 245,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "SO9KJV": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_SO9KJV.pt",
+            "shapes": [
+                [
+                    243,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 243,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "QMQ8HN": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_QMQ8HN.pt",
+            "shapes": [
+                [
+                    261,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 261,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "Q999SA": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_Q999SA.pt",
+            "shapes": [
+                [
+                    171,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 171,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "S434X8": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_S434X8.pt",
+            "shapes": [
+                [
+                    257,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 257,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "WK69K7": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_WK69K7.pt",
+            "shapes": [
+                [
+                    78,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 78,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "OMLFOK": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_OMLFOK.pt",
+            "shapes": [
+                [
+                    60,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 60,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "D8KIHG": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_D8KIHG.pt",
+            "shapes": [
+                [
+                    90,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 90,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "TRVB8U": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_TRVB8U.pt",
+            "shapes": [
+                [
+                    82,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 82,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "EZ6RB5": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_EZ6RB5.pt",
+            "shapes": [
+                [
+                    77,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 77,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "WZ06XA": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_WZ06XA.pt",
+            "shapes": [
+                [
+                    71,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 71,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "ZSDZJY": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_ZSDZJY.pt",
+            "shapes": [
+                [
+                    105,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 105,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "9RQFO3": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_9RQFO3.pt",
+            "shapes": [
+                [
+                    98,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 98,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "YT3T7C": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_YT3T7C.pt",
+            "shapes": [
+                [
+                    57,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 57,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "TCGS9K": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_TCGS9K.pt",
+            "shapes": [
+                [
+                    88,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 88,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "U5ZP11": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_U5ZP11.pt",
+            "shapes": [
+                [
+                    66,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 66,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "R1A5G0": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_R1A5G0.pt",
+            "shapes": [
+                [
+                    108,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 108,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "B82DGJ": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_B82DGJ.pt",
+            "shapes": [
+                [
+                    96,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 96,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "BZLE6U": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_BZLE6U.pt",
+            "shapes": [
+                [
+                    103,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 103,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "E7QODN": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_E7QODN.pt",
+            "shapes": [
+                [
+                    58,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 58,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "5GHCTN": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_5GHCTN.pt",
+            "shapes": [
+                [
+                    75,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 75,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "5MZOLZ": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_5MZOLZ.pt",
+            "shapes": [
+                [
+                    51,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 51,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "IFSB47": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_IFSB47.pt",
+            "shapes": [
+                [
+                    54,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 54,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "330DX3": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_330DX3.pt",
+            "shapes": [
+                [
+                    106,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 106,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "0T84UT": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_0T84UT.pt",
+            "shapes": [
+                [
+                    104,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 104,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "N7PSCF": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_N7PSCF.pt",
+            "shapes": [
+                [
+                    83,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 83,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "JLQVOO": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_JLQVOO.pt",
+            "shapes": [
+                [
+                    64,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 64,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "744JL4": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_744JL4.pt",
+            "shapes": [
+                [
+                    37,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 37,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "LDWCE6": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_LDWCE6.pt",
+            "shapes": [
+                [
+                    60,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 60,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "H49BUV": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_H49BUV.pt",
+            "shapes": [
+                [
+                    74,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 74,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "PKH7CE": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_PKH7CE.pt",
+            "shapes": [
+                [
+                    65,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 65,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "C5T8RF": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_C5T8RF.pt",
+            "shapes": [
+                [
+                    80,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 80,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "SRGJO7": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_SRGJO7.pt",
+            "shapes": [
+                [
+                    69,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 69,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "W4LCFC": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_W4LCFC.pt",
+            "shapes": [
+                [
+                    42,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 42,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "U3KH9D": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_U3KH9D.pt",
+            "shapes": [
+                [
+                    39,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 39,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "HSIZU5": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_HSIZU5.pt",
+            "shapes": [
+                [
+                    76,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 76,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "MFNIY3": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_MFNIY3.pt",
+            "shapes": [
+                [
+                    71,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 71,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "MU22WJ": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_MU22WJ.pt",
+            "shapes": [
+                [
+                    75,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 75,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "7LIEUB": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_7LIEUB.pt",
+            "shapes": [
+                [
+                    54,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 54,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "KZIM1E": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_KZIM1E.pt",
+            "shapes": [
+                [
+                    84,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 84,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "DIUM6M": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_DIUM6M.pt",
+            "shapes": [
+                [
+                    78,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 78,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "3I1F3O": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_3I1F3O.pt",
+            "shapes": [
+                [
+                    86,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 86,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "TMLCZX": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_TMLCZX.pt",
+            "shapes": [
+                [
+                    40,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 40,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "3CDAIB": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_3CDAIB.pt",
+            "shapes": [
+                [
+                    73,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 73,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "C1GGYV": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_C1GGYV.pt",
+            "shapes": [
+                [
+                    55,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 55,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "LH4TKX": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_LH4TKX.pt",
+            "shapes": [
+                [
+                    239,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 239,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "HAYTLW": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_HAYTLW.pt",
+            "shapes": [
+                [
+                    280,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 280,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "40HVWA": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_40HVWA.pt",
+            "shapes": [
+                [
+                    177,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 177,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "CASDJG": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_CASDJG.pt",
+            "shapes": [
+                [
+                    278,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 278,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "YMNEHP": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_YMNEHP.pt",
+            "shapes": [
+                [
+                    196,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 196,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "NNK9P2": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_NNK9P2.pt",
+            "shapes": [
+                [
+                    137,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 137,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "TW1EV9": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_TW1EV9.pt",
+            "shapes": [
+                [
+                    227,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 227,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "CNEC61": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_CNEC61.pt",
+            "shapes": [
+                [
+                    132,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 132,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "IDVA2D": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_IDVA2D.pt",
+            "shapes": [
+                [
+                    236,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 236,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "8RN00H": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_8RN00H.pt",
+            "shapes": [
+                [
+                    203,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 203,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "ILPS15": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_ILPS15.pt",
+            "shapes": [
+                [
+                    190,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 190,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "OS1PZK": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_OS1PZK.pt",
+            "shapes": [
+                [
+                    204,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 204,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "8O6E45": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_8O6E45.pt",
+            "shapes": [
+                [
+                    265,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 265,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "3G9V3R": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_3G9V3R.pt",
+            "shapes": [
+                [
+                    184,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 184,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "H1IV04": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_H1IV04.pt",
+            "shapes": [
+                [
+                    185,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 185,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "ZOYEBV": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_ZOYEBV.pt",
+            "shapes": [
+                [
+                    202,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 202,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "6TQIZE": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_6TQIZE.pt",
+            "shapes": [
+                [
+                    153,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 153,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "18LCZP": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_18LCZP.pt",
+            "shapes": [
+                [
+                    276,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 276,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "7HCWY9": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_7HCWY9.pt",
+            "shapes": [
+                [
+                    257,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 257,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "25T8AP": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_25T8AP.pt",
+            "shapes": [
+                [
+                    143,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 143,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "6X4EB0": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_6X4EB0.pt",
+            "shapes": [
+                [
+                    31,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 31,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "XUK9EZ": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_XUK9EZ.pt",
+            "shapes": [
+                [
+                    50,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 50,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "112MZL": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_112MZL.pt",
+            "shapes": [
+                [
+                    27,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 27,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "UWRJZ1": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_UWRJZ1.pt",
+            "shapes": [
+                [
+                    40,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 40,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "99KW49": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_99KW49.pt",
+            "shapes": [
+                [
+                    34,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 34,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "AY1YN1": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_AY1YN1.pt",
+            "shapes": [
+                [
+                    29,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 29,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "0WKQD0": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_0WKQD0.pt",
+            "shapes": [
+                [
+                    35,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 35,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "U7TYX9": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_U7TYX9.pt",
+            "shapes": [
+                [
+                    53,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 53,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "0D9XS8": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_0D9XS8.pt",
+            "shapes": [
+                [
+                    57,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 57,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "707REY": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_707REY.pt",
+            "shapes": [
+                [
+                    47,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 47,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "KOM9QG": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_KOM9QG.pt",
+            "shapes": [
+                [
+                    42,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 42,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "E4IE9E": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_E4IE9E.pt",
+            "shapes": [
+                [
+                    56,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 56,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "JSCRVI": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_JSCRVI.pt",
+            "shapes": [
+                [
+                    48,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 48,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "K85QHM": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_K85QHM.pt",
+            "shapes": [
+                [
+                    58,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 58,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "QS6CWZ": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_QS6CWZ.pt",
+            "shapes": [
+                [
+                    60,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 60,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "THCVBR": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_THCVBR.pt",
+            "shapes": [
+                [
+                    32,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 32,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "5PRCVM": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_5PRCVM.pt",
+            "shapes": [
+                [
+                    45,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 45,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "TRL80Z": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_TRL80Z.pt",
+            "shapes": [
+                [
+                    44,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 44,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "IX48JR": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_IX48JR.pt",
+            "shapes": [
+                [
+                    54,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 54,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "7H7UNL": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_7H7UNL.pt",
+            "shapes": [
+                [
+                    30,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 30,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "W51YL3": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_W51YL3.pt",
+            "shapes": [
+                [
+                    169,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 169,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "7HXNY0": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_7HXNY0.pt",
+            "shapes": [
+                [
+                    103,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 103,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "2UPX79": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_2UPX79.pt",
+            "shapes": [
+                [
+                    145,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 145,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "XHN9FG": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_XHN9FG.pt",
+            "shapes": [
+                [
+                    162,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 162,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "8KH92J": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_8KH92J.pt",
+            "shapes": [
+                [
+                    138,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 138,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "9O23ET": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_9O23ET.pt",
+            "shapes": [
+                [
+                    80,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 80,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "NRUT48": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_NRUT48.pt",
+            "shapes": [
+                [
+                    150,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 150,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "9DNPZJ": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_9DNPZJ.pt",
+            "shapes": [
+                [
+                    154,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 154,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "81LLQP": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_81LLQP.pt",
+            "shapes": [
+                [
+                    118,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 118,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "SPYMWH": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_SPYMWH.pt",
+            "shapes": [
+                [
+                    88,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 88,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "2KG5N5": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_2KG5N5.pt",
+            "shapes": [
+                [
+                    123,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 123,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "2PVI4P": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_2PVI4P.pt",
+            "shapes": [
+                [
+                    121,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 121,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "OHDC5H": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_OHDC5H.pt",
+            "shapes": [
+                [
+                    106,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 106,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "HMEH8W": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_HMEH8W.pt",
+            "shapes": [
+                [
+                    146,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 146,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "8UP9PG": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_8UP9PG.pt",
+            "shapes": [
+                [
+                    130,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 130,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "4B0LOX": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_4B0LOX.pt",
+            "shapes": [
+                [
+                    144,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 144,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "8VYI1C": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_8VYI1C.pt",
+            "shapes": [
+                [
+                    104,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 104,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "XGMTFX": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_XGMTFX.pt",
+            "shapes": [
+                [
+                    77,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 77,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "U2K72I": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_U2K72I.pt",
+            "shapes": [
+                [
+                    133,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 133,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "U3AC9C": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_U3AC9C.pt",
+            "shapes": [
+                [
+                    94,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 94,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "CU9WPT": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_CU9WPT.pt",
+            "shapes": [
+                [
+                    176,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 176,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "G4WDQQ": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_G4WDQQ.pt",
+            "shapes": [
+                [
+                    190,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 190,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "APST9O": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_APST9O.pt",
+            "shapes": [
+                [
+                    232,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 232,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "9FZDQ0": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_9FZDQ0.pt",
+            "shapes": [
+                [
+                    160,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 160,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "M8H3EF": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_M8H3EF.pt",
+            "shapes": [
+                [
+                    204,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 204,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "YQL9QQ": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_YQL9QQ.pt",
+            "shapes": [
+                [
+                    271,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 271,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "0XCZ3W": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_0XCZ3W.pt",
+            "shapes": [
+                [
+                    239,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 239,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "GAWHFU": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_GAWHFU.pt",
+            "shapes": [
+                [
+                    274,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 274,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "9BBK9W": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_9BBK9W.pt",
+            "shapes": [
+                [
+                    209,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 209,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "K2NO7C": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_K2NO7C.pt",
+            "shapes": [
+                [
+                    273,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 273,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "NYAOCE": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_NYAOCE.pt",
+            "shapes": [
+                [
+                    179,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 179,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "E6RBUG": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_E6RBUG.pt",
+            "shapes": [
+                [
+                    264,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 264,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "LJXYDF": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_LJXYDF.pt",
+            "shapes": [
+                [
+                    148,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 148,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "85XD9B": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_85XD9B.pt",
+            "shapes": [
+                [
+                    122,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 122,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "HVXHNQ": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_HVXHNQ.pt",
+            "shapes": [
+                [
+                    275,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 275,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "ILDBGA": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_ILDBGA.pt",
+            "shapes": [
+                [
+                    253,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 253,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "7SG1BK": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_7SG1BK.pt",
+            "shapes": [
+                [
+                    126,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 126,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "S30U6H": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_S30U6H.pt",
+            "shapes": [
+                [
+                    151,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 151,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "LQLFP0": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_LQLFP0.pt",
+            "shapes": [
+                [
+                    174,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 174,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "5W2LB9": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_5W2LB9.pt",
+            "shapes": [
+                [
+                    191,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 191,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "O56CRR": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_O56CRR.pt",
+            "shapes": [
+                [
+                    586,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 586,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "WVAW1O": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_WVAW1O.pt",
+            "shapes": [
+                [
+                    919,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 919,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "MSHXUX": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_MSHXUX.pt",
+            "shapes": [
+                [
+                    677,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 677,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "TLUV5P": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_TLUV5P.pt",
+            "shapes": [
+                [
+                    453,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 453,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "YULQ28": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_YULQ28.pt",
+            "shapes": [
+                [
+                    750,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 750,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "Q8I3H9": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_Q8I3H9.pt",
+            "shapes": [
+                [
+                    896,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 896,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "LQDL4S": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_LQDL4S.pt",
+            "shapes": [
+                [
+                    603,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 603,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "GUJ4A4": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_GUJ4A4.pt",
+            "shapes": [
+                [
+                    475,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 475,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "JD21A2": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_JD21A2.pt",
+            "shapes": [
+                [
+                    889,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 889,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "XEX13L": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_XEX13L.pt",
+            "shapes": [
+                [
+                    972,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 972,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "SR203W": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_SR203W.pt",
+            "shapes": [
+                [
+                    800,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 800,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "7VKVEI": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_7VKVEI.pt",
+            "shapes": [
+                [
+                    824,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 824,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "CN1AXA": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_CN1AXA.pt",
+            "shapes": [
+                [
+                    673,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 673,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "F7V1DH": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_F7V1DH.pt",
+            "shapes": [
+                [
+                    711,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 711,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "7IMG9R": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_7IMG9R.pt",
+            "shapes": [
+                [
+                    550,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 550,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "K36THI": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_K36THI.pt",
+            "shapes": [
+                [
+                    911,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 911,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "NZ3AXT": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_NZ3AXT.pt",
+            "shapes": [
+                [
+                    446,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 446,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "E8GATC": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_E8GATC.pt",
+            "shapes": [
+                [
+                    754,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 754,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "WQ5IK1": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_WQ5IK1.pt",
+            "shapes": [
+                [
+                    429,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 429,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "TS88FS": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_TS88FS.pt",
+            "shapes": [
+                [
+                    431,
+                    28,
+                    28
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 431,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "JHI7IO": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_JHI7IO.pt",
+            "shapes": [
+                [
+                    33,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 33,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "L25PJS": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_L25PJS.pt",
+            "shapes": [
+                [
+                    63,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 63,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "CZHDKT": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_CZHDKT.pt",
+            "shapes": [
+                [
+                    43,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 43,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "HYPK7B": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_HYPK7B.pt",
+            "shapes": [
+                [
+                    48,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 48,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "VRQF6P": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_VRQF6P.pt",
+            "shapes": [
+                [
+                    56,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 56,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "JR56KN": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_JR56KN.pt",
+            "shapes": [
+                [
+                    50,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 50,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "55T6BA": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_55T6BA.pt",
+            "shapes": [
+                [
+                    55,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 55,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "AV1JG4": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_AV1JG4.pt",
+            "shapes": [
+                [
+                    52,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 52,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "TIPN68": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_TIPN68.pt",
+            "shapes": [
+                [
+                    49,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 49,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "BO8RLC": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_BO8RLC.pt",
+            "shapes": [
+                [
+                    51,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 51,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "E9EKMV": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_E9EKMV.pt",
+            "shapes": [
+                [
+                    29,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 29,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "IQTAQU": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_IQTAQU.pt",
+            "shapes": [
+                [
+                    46,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 46,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "CKJHDR": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_CKJHDR.pt",
+            "shapes": [
+                [
+                    37,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 37,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "RZH3L1": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_RZH3L1.pt",
+            "shapes": [
+                [
+                    36,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 36,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "M1YZH3": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_M1YZH3.pt",
+            "shapes": [
+                [
+                    28,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 28,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "VP4IMV": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_VP4IMV.pt",
+            "shapes": [
+                [
+                    42,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 42,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "O96X06": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_O96X06.pt",
+            "shapes": [
+                [
+                    30,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 30,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "M9RT3R": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_M9RT3R.pt",
+            "shapes": [
+                [
+                    47,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 47,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "LCD473": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_LCD473.pt",
+            "shapes": [
+                [
+                    39,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 39,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "BBDBY8": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_BBDBY8.pt",
+            "shapes": [
+                [
+                    45,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 45,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "R8QQWY": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_R8QQWY.pt",
+            "shapes": [
+                [
+                    154,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 154,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "THM8Q2": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_THM8Q2.pt",
+            "shapes": [
+                [
+                    146,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 146,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "3HFHIE": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_3HFHIE.pt",
+            "shapes": [
+                [
+                    104,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 104,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "B24HLN": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_B24HLN.pt",
+            "shapes": [
+                [
+                    97,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 97,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "KNJC91": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_KNJC91.pt",
+            "shapes": [
+                [
+                    85,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 85,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "4445S4": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_4445S4.pt",
+            "shapes": [
+                [
+                    108,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 108,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "1BIFFY": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_1BIFFY.pt",
+            "shapes": [
+                [
+                    66,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 66,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "4ZE2SX": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_4ZE2SX.pt",
+            "shapes": [
+                [
+                    105,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 105,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "R54SVD": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_R54SVD.pt",
+            "shapes": [
+                [
+                    139,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 139,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "GQKJPT": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_GQKJPT.pt",
+            "shapes": [
+                [
+                    112,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 112,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "RU328C": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_RU328C.pt",
+            "shapes": [
+                [
+                    117,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 117,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "RFSXP1": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_RFSXP1.pt",
+            "shapes": [
+                [
+                    71,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 71,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "LMKY2Z": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_LMKY2Z.pt",
+            "shapes": [
+                [
+                    77,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 77,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "8Z1RVR": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_8Z1RVR.pt",
+            "shapes": [
+                [
+                    90,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 90,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "LAVR2Y": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_LAVR2Y.pt",
+            "shapes": [
+                [
+                    111,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 111,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "U4ZJEP": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_U4ZJEP.pt",
+            "shapes": [
+                [
+                    113,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 113,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "KLYRB4": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_KLYRB4.pt",
+            "shapes": [
+                [
+                    153,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 153,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "H1ACFF": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_H1ACFF.pt",
+            "shapes": [
+                [
+                    69,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 69,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "H2GB43": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_H2GB43.pt",
+            "shapes": [
+                [
+                    93,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 93,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "GCOGNN": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_GCOGNN.pt",
+            "shapes": [
+                [
+                    136,
+                    14,
+                    14
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 136,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "H9MXVX": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_H9MXVX.pt",
+            "shapes": [
+                [
+                    542,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 542,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "6PDXHG": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_6PDXHG.pt",
+            "shapes": [
+                [
+                    429,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 429,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "RNA2Y2": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_RNA2Y2.pt",
+            "shapes": [
+                [
+                    537,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 537,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "142GFR": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_142GFR.pt",
+            "shapes": [
+                [
+                    472,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 472,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "RVYNE5": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_RVYNE5.pt",
+            "shapes": [
+                [
+                    426,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 426,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "TH8Z5C": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_TH8Z5C.pt",
+            "shapes": [
+                [
+                    365,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 365,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "C9PCVS": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_C9PCVS.pt",
+            "shapes": [
+                [
+                    543,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 543,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "VWDROT": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_VWDROT.pt",
+            "shapes": [
+                [
+                    385,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 385,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "OOSQCC": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_OOSQCC.pt",
+            "shapes": [
+                [
+                    516,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 516,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "SHIFVP": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_SHIFVP.pt",
+            "shapes": [
+                [
+                    563,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 563,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "SYARXK": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_SYARXK.pt",
+            "shapes": [
+                [
+                    592,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 592,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "F2IEPV": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_F2IEPV.pt",
+            "shapes": [
+                [
+                    476,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 476,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "II5LKZ": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_II5LKZ.pt",
+            "shapes": [
+                [
+                    487,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 487,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "7IUCKW": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_7IUCKW.pt",
+            "shapes": [
+                [
+                    401,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 401,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "S5O5YG": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_S5O5YG.pt",
+            "shapes": [
+                [
+                    527,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 527,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "I500WW": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_I500WW.pt",
+            "shapes": [
+                [
+                    293,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 293,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "I4LR78": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_I4LR78.pt",
+            "shapes": [
+                [
+                    444,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 444,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "6FPCPM": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_6FPCPM.pt",
+            "shapes": [
+                [
+                    538,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 538,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "37YD2P": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_37YD2P.pt",
+            "shapes": [
+                [
+                    562,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 562,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "QX5Q7W": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_QX5Q7W.pt",
+            "shapes": [
+                [
+                    292,
+                    56,
+                    56
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 292,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2,
+                "POOL_STRIDES": 2
+            }
+        },
+        "3X4009": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_3X4009.pt",
+            "shapes": [
+                [
+                    138,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 138,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "R85SAR": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_R85SAR.pt",
+            "shapes": [
+                [
+                    173,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 173,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "IE4U9G": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_IE4U9G.pt",
+            "shapes": [
+                [
+                    234,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 234,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "9GJI9A": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_9GJI9A.pt",
+            "shapes": [
+                [
+                    240,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 240,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "84WG1P": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_84WG1P.pt",
+            "shapes": [
+                [
+                    265,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 265,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "PPRC6V": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_PPRC6V.pt",
+            "shapes": [
+                [
+                    164,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 164,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "PEDFV8": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_PEDFV8.pt",
+            "shapes": [
+                [
+                    146,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 146,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "QFS50A": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_QFS50A.pt",
+            "shapes": [
+                [
+                    205,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 205,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "1EHZVO": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_1EHZVO.pt",
+            "shapes": [
+                [
+                    218,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 218,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "RLWQCB": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_RLWQCB.pt",
+            "shapes": [
+                [
+                    247,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 247,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "MHA2JI": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_MHA2JI.pt",
+            "shapes": [
+                [
+                    159,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 159,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "EIOFZY": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_EIOFZY.pt",
+            "shapes": [
+                [
+                    190,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 190,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "U2YNPK": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_U2YNPK.pt",
+            "shapes": [
+                [
+                    272,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 272,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "S1KJGB": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_S1KJGB.pt",
+            "shapes": [
+                [
+                    249,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 249,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "U0IUE9": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_U0IUE9.pt",
+            "shapes": [
+                [
+                    237,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 237,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "NX9H1F": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_NX9H1F.pt",
+            "shapes": [
+                [
+                    140,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 140,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "X9201Q": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_X9201Q.pt",
+            "shapes": [
+                [
+                    175,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 175,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "URN098": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_URN098.pt",
+            "shapes": [
+                [
+                    125,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 125,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "F15JUK": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_F15JUK.pt",
+            "shapes": [
+                [
+                    273,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 273,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        },
+        "1UY0G2": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_gpu/predictor_build/kernels/avgpool_finegrained1_1UY0G2.pt",
+            "shapes": [
+                [
+                    215,
+                    224,
+                    224
+                ]
+            ],
+            "config": {
+                "HW": 224,
+                "CIN": 215,
+                "KERNEL_SIZE": 2,
+                "STRIDES": 1,
+                "POOL_STRIDES": 1
+            }
+        }
+    }
+}

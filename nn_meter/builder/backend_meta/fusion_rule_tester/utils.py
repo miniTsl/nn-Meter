@@ -30,6 +30,7 @@ __BUILTIN_TESTCASES__ = {'MON'}
 
 __user_config_folder__ = os.path.expanduser('~/.nn_meter/config')
 __registry_cfg_filename__ = 'registry.yaml'
+
 __REG_OPERATORS__, __REG_TESTCASES__ = {}, {}
 if os.path.isfile(os.path.join(__user_config_folder__, __registry_cfg_filename__)):
     with open(os.path.join(__user_config_folder__, __registry_cfg_filename__), 'r') as fp:
@@ -112,11 +113,11 @@ def generate_models_for_testcase(op1, op2, input_shape, config, implement):
 
     op2_model = SingleOpModel(layer2)
     op2_shapes = [op1_output_shape] * (1 + op2_is_two_inputs)
-    op2_model(get_inputs_by_shapes(op2_shapes))
+    # op2_model(get_inputs_by_shapes(op2_shapes))
 
     block_model = TwoOpModel(layer1, layer2, op1_is_two_inputs, op2_is_two_inputs)
     block_shapes = [input_shape] * (1 + op1_is_two_inputs) + [op1_output_shape] * op2_is_two_inputs
-    block_model(get_inputs_by_shapes(block_shapes))
+    # block_model(get_inputs_by_shapes(block_shapes))
 
     return op1_model, op2_model, block_model, op1_shapes, op2_shapes, block_shapes
 
@@ -151,18 +152,24 @@ def save_model(model, model_path, implement):
     elif implement == 'torch':
         import torch
         from nn_meter.builder.nn_modules.torch_networks.utils import get_inputs_by_shapes
-        torch.onnx.export(
-            model['model'],
-            get_inputs_by_shapes(model['shapes']),
-            model_path + '.onnx',
-            input_names=['input'],
-            output_names=['output'],
-            verbose=False,
-            export_params=True,
-            opset_version=12,
-            do_constant_folding=True,
-        )
-        return model_path + '.onnx'
+        # torch.onnx.export(
+        #     model['model'],
+        #     get_inputs_by_shapes(model['shapes']),
+        #     model_path + '.onnx',
+        #     input_names=['input'],
+        #     output_names=['output'],
+        #     verbose=False,
+        #     export_params=True,
+        #     opset_version=12,
+        #     do_constant_folding=True,
+        # )
+        # return model_path + '.onnx'
+        example_inputs = get_inputs_by_shapes(model['shapes'])
+        traced_model = torch.jit.trace(model['model'], example_inputs=example_inputs)
+        # scripted_model = torch.jit.script(model['model'])
+        traced_model.save(model_path + '.pt')
+        return model_path + '.pt'
+
 
     else:
         import pdb; pdb.set_trace()

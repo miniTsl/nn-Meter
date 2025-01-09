@@ -1,0 +1,3059 @@
+{
+    "BF_add_add": {
+        "add_1": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_add_add_1.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.01431218 +- 0.00037063408855635496"
+        },
+        "add_2": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_add_add_2.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.07144685999999999 +- 0.009397785381694989"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_add_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.15358324 +- 0.01907891713862189"
+        }
+    },
+    "BF_add_avgpool": {
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_avgpool_add.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.0818485 +- 0.004675238788554014"
+        },
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_avgpool_avgpool.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.13256008000000002 +- 0.003513051236973351"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_avgpool_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.20987629999999993 +- 0.029425437199980566"
+        }
+    },
+    "BF_add_concat": {
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_concat_add.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.08251457999999999 +- 0.005536934021965587"
+        },
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_concat_concat.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.15136751999999995 +- 0.008519049168164252"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_concat_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.20016353999999997 +- 0.012477263835008058"
+        }
+    },
+    "BF_add_conv": {
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_conv_add.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.08536319999999996 +- 0.0026362793175230873"
+        },
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_conv_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.1335683399999998 +- 0.26907181258367513"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_conv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.6029053599999998 +- 0.2431351620556566"
+        }
+    },
+    "BF_add_convtrans": {
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_convtrans_add.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.07672736 +- 0.004238073575387761"
+        },
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_convtrans_convtrans.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.9979440799999998 +- 0.21542677136919078"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_convtrans_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.1886893399999996 +- 0.21573810075826758"
+        }
+    },
+    "BF_add_dwconv": {
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_dwconv_add.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.07788725999999997 +- 0.005624507223961936"
+        },
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_dwconv_dwconv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.22910083999999997 +- 0.07972908455522613"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_dwconv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.2216715 +- 0.07481663433415059"
+        }
+    },
+    "BF_add_fc": {
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_fc_add.pt",
+            "shapes": [
+                [
+                    428
+                ],
+                [
+                    428
+                ]
+            ],
+            "latency": "0.01739374 +- 0.0033613821193669725"
+        },
+        "fc": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_fc_fc.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ],
+            "latency": "0.09035748000000002 +- 0.0021204088402003987"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_fc_block.pt",
+            "shapes": [
+                [
+                    428
+                ],
+                [
+                    428
+                ]
+            ],
+            "latency": "0.11634217999999999 +- 0.018220963986233"
+        }
+    },
+    "BF_add_relu": {
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_relu_add.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.07109566000000002 +- 0.010158182090531749"
+        },
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_relu_relu.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.07534589999999998 +- 0.026762183425311174"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_relu_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.12848572 +- 0.02412806754801553"
+        }
+    },
+    "BF_add_reshape": {
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_reshape_add.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.0751973 +- 0.025771769251062296"
+        },
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_reshape_reshape.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.014739519999999996 +- 0.0004823602902395677"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_add_reshape_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.08321274000000001 +- 0.012460122466187882"
+        }
+    },
+    "BF_avgpool_add": {
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_avgpool_add_avgpool.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.12583416000000003 +- 0.0019511987634272413"
+        },
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_avgpool_add_add.pt",
+            "shapes": [
+                [
+                    64,
+                    14,
+                    14
+                ],
+                [
+                    64,
+                    14,
+                    14
+                ]
+            ],
+            "latency": "0.020059340000000002 +- 0.008935297822926777"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_avgpool_add_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    14,
+                    14
+                ]
+            ],
+            "latency": "0.18210013999999997 +- 0.029300760519829515"
+        }
+    },
+    "BF_avgpool_avgpool": {
+        "avgpool_1": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_avgpool_avgpool_avgpool_1.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.12558756 +- 0.010821836182755678"
+        },
+        "avgpool_2": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_avgpool_avgpool_avgpool_2.pt",
+            "shapes": [
+                [
+                    64,
+                    14,
+                    14
+                ]
+            ],
+            "latency": "0.09959563999999999 +- 0.012377365360625016"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_avgpool_avgpool_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.235673 +- 0.041076136198040826"
+        }
+    },
+    "BF_avgpool_concat": {
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_avgpool_concat_avgpool.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.15766518000000004 +- 0.03387756751757127"
+        },
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_avgpool_concat_concat.pt",
+            "shapes": [
+                [
+                    64,
+                    14,
+                    14
+                ],
+                [
+                    64,
+                    14,
+                    14
+                ]
+            ],
+            "latency": "0.020886500000000002 +- 0.01446978148591056"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_avgpool_concat_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    14,
+                    14
+                ]
+            ],
+            "latency": "0.19762454000000002 +- 0.0278163440000371"
+        }
+    },
+    "BF_avgpool_conv": {
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_avgpool_conv_avgpool.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.1298214 +- 0.006487829689503262"
+        },
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_avgpool_conv_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    14,
+                    14
+                ]
+            ],
+            "latency": "0.5152797000000001 +- 0.012925513918216168"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_avgpool_conv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.6146652599999999 +- 0.05505601143519571"
+        }
+    },
+    "BF_avgpool_convtrans": {
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_avgpool_convtrans_avgpool.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.12864433999999997 +- 0.007594096316507973"
+        },
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_avgpool_convtrans_convtrans.pt",
+            "shapes": [
+                [
+                    64,
+                    14,
+                    14
+                ]
+            ],
+            "latency": "0.38691094 +- 0.08784675992099196"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_avgpool_convtrans_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.34911960000000003 +- 0.037035023026859314"
+        }
+    },
+    "BF_avgpool_dwconv": {
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_avgpool_dwconv_avgpool.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.13865223999999998 +- 0.02517164355743184"
+        },
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_avgpool_dwconv_dwconv.pt",
+            "shapes": [
+                [
+                    64,
+                    14,
+                    14
+                ]
+            ],
+            "latency": "0.3182834000000001 +- 0.11804502470769364"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_avgpool_dwconv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.20774626000000004 +- 0.07120744506041767"
+        }
+    },
+    "BF_avgpool_relu": {
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_avgpool_relu_avgpool.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.13204223999999998 +- 0.02420438059323973"
+        },
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_avgpool_relu_relu.pt",
+            "shapes": [
+                [
+                    64,
+                    14,
+                    14
+                ]
+            ],
+            "latency": "0.0036216400000000006 +- 0.0006881785454371561"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_avgpool_relu_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.19557578000000006 +- 0.0029287671624081022"
+        }
+    },
+    "BF_avgpool_reshape": {
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_avgpool_reshape_avgpool.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.12697148 +- 0.017061446298880994"
+        },
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_avgpool_reshape_reshape.pt",
+            "shapes": [
+                [
+                    64,
+                    14,
+                    14
+                ]
+            ],
+            "latency": "0.01451342 +- 0.0004799202054508644"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_avgpool_reshape_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.12975680000000003 +- 0.025891586192429386"
+        }
+    },
+    "BF_bn_relu": {
+        "bn": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_bn_relu_bn.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.20109806000000005 +- 0.03521363515254283"
+        },
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_bn_relu_relu.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.07441652000000001 +- 0.003292907306560571"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_bn_relu_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.17409097999999998 +- 0.03995077965872005"
+        }
+    },
+    "BF_concat_add": {
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_add_concat.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.15378042 +- 0.014190447725269274"
+        },
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_add_add.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ],
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.08696986 +- 0.008393906730503978"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_add_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.21086269999999993 +- 0.01675785373160895"
+        }
+    },
+    "BF_concat_avgpool": {
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_avgpool_concat.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.1572481 +- 0.0259012002503745"
+        },
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_avgpool_avgpool.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.2878254 +- 0.028934500244517786"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_avgpool_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.31879484 +- 0.03806796596108596"
+        }
+    },
+    "BF_concat_concat": {
+        "concat_1": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_concat_concat_1.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.14794402 +- 0.013827609912765115"
+        },
+        "concat_2": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_concat_concat_2.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ],
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.19745205999999996 +- 0.035970071818338084"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_concat_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.20000736000000002 +- 0.008695186198719382"
+        }
+    },
+    "BF_concat_conv": {
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_conv_concat.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.12303499999999999 +- 0.013829374922967413"
+        },
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_conv_conv.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.2268659800000001 +- 0.32373420019945315"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_conv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.3314146199999999 +- 0.3271675946655408"
+        }
+    },
+    "BF_concat_convtrans": {
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_convtrans_concat.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.12559678 +- 0.022262462905339116"
+        },
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_convtrans_convtrans.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.4972078600000003 +- 0.38159339190840347"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_convtrans_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.4942195999999996 +- 0.46234625080006875"
+        }
+    },
+    "BF_concat_dwconv": {
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_dwconv_concat.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.13144724000000002 +- 0.035996263060801184"
+        },
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_dwconv_dwconv.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.19115557999999988 +- 0.06877370887747439"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_dwconv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.18342851999999993 +- 0.06682584319415356"
+        }
+    },
+    "BF_concat_fc": {
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_fc_concat.pt",
+            "shapes": [
+                [
+                    428
+                ],
+                [
+                    428
+                ]
+            ],
+            "latency": "0.018196840000000006 +- 0.000465342083203314"
+        },
+        "fc": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_fc_fc.pt",
+            "shapes": [
+                [
+                    856
+                ]
+            ],
+            "latency": "0.09209969999999998 +- 0.005114798280479885"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_fc_block.pt",
+            "shapes": [
+                [
+                    428
+                ],
+                [
+                    428
+                ]
+            ],
+            "latency": "0.0573036 +- 0.03376762972374579"
+        }
+    },
+    "BF_concat_relu": {
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_relu_concat.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.1250026 +- 0.008266430857389422"
+        },
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_relu_relu.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.08524974 +- 0.0038360250041416565"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_relu_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.17217158 +- 0.0331917296332023"
+        }
+    },
+    "BF_concat_reshape": {
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_reshape_concat.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.11973966000000007 +- 0.004214798451219229"
+        },
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_reshape_reshape.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.0021929199999999997 +- 5.725027161507623e-05"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_concat_reshape_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.14260722 +- 0.012748500379715255"
+        }
+    },
+    "BF_conv_add": {
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_add_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.0772957400000003 +- 0.09074535939645839"
+        },
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_add_add.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ],
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.08299996000000004 +- 0.021115121158979882"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_add_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.2324965199999998 +- 0.28447983100538005"
+        }
+    },
+    "BF_conv_avgpool": {
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_avgpool_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.0679655 +- 0.10975992890636366"
+        },
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_avgpool_avgpool.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.17167717999999998 +- 0.0034471289717096466"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_avgpool_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.1504847800000002 +- 0.2521558109354841"
+        }
+    },
+    "BF_conv_bn": {
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_bn_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.00217152 +- 0.14221471261613405"
+        },
+        "bn": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_bn_bn.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.22308774 +- 0.03824075627432596"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_bn_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.9619243399999999 +- 0.2670440863402603"
+        }
+    },
+    "BF_conv_concat": {
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_concat_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.0616809999999999 +- 0.22255642195488315"
+        },
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_concat_concat.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ],
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.13750315999999999 +- 0.027672489268123313"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_concat_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.1181966399999999 +- 0.3623515347635641"
+        }
+    },
+    "BF_conv_conv": {
+        "conv_1": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_conv_conv_1.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.09603546 +- 0.18711641448052704"
+        },
+        "conv_2": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_conv_conv_2.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.26197688 +- 0.35721810682392013"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_conv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.4209590399999998 +- 0.3560649245293875"
+        }
+    },
+    "BF_conv_convtrans": {
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_convtrans_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.2040101000000003 +- 0.23116275194903263"
+        },
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_convtrans_convtrans.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.3846848599999995 +- 0.44087240651281456"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_convtrans_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.7793596200000004 +- 0.49796791022751213"
+        }
+    },
+    "BF_conv_dwconv": {
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_dwconv_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.1060325000000004 +- 0.2162474760863812"
+        },
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_dwconv_dwconv.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.15176948 +- 0.040056447047755"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_dwconv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.6171394799999997 +- 0.2629722963051614"
+        }
+    },
+    "BF_conv_hswish": {
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_hswish_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.0543819199999995 +- 0.1331930311233797"
+        },
+        "hswish": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_hswish_hswish.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.1386722 +- 0.003844106965213116"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_hswish_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.0530934 +- 0.24578639517060338"
+        }
+    },
+    "BF_conv_relu": {
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_relu_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.0496953400000002 +- 0.18416192270136733"
+        },
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_relu_relu.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.09021070000000005 +- 0.03374168910546714"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_relu_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.1146543000000002 +- 0.21121019935800922"
+        }
+    },
+    "BF_conv_reshape": {
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_reshape_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.6217062400000001 +- 0.20177493121848017"
+        },
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_reshape_reshape.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.0021968600000000006 +- 5.2271984848482634e-05"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_reshape_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.0518849799999999 +- 0.11316479468571311"
+        }
+    },
+    "BF_conv_se": {
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_se_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.0621431600000002 +- 0.15202948938325878"
+        },
+        "se": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_se_se.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.08616654000000003 +- 0.014269478789654514"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_conv_se_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.6924227999999998 +- 0.24890482384317103"
+        }
+    },
+    "BF_convtrans_add": {
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_convtrans_add_convtrans.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.2671491599999998 +- 0.25022857190204"
+        },
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_convtrans_add_add.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ],
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.07161241999999998 +- 0.016779420950783733"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_convtrans_add_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.4139745799999996 +- 0.2997710097545185"
+        }
+    },
+    "BF_convtrans_avgpool": {
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_convtrans_avgpool_convtrans.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.2849415400000002 +- 0.20595855254892523"
+        },
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_convtrans_avgpool_avgpool.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.26597941999999997 +- 0.03640483026417785"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_convtrans_avgpool_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.2567393400000002 +- 0.26864710577273004"
+        }
+    },
+    "BF_convtrans_concat": {
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_convtrans_concat_convtrans.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.2312825999999997 +- 0.12178568125572069"
+        },
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_convtrans_concat_concat.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ],
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.13295174000000004 +- 0.0156020303625009"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_convtrans_concat_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.11637014 +- 0.18912650683476498"
+        }
+    },
+    "BF_convtrans_conv": {
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_convtrans_conv_convtrans.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.3010171800000006 +- 0.2524812597588732"
+        },
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_convtrans_conv_conv.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.3357498199999998 +- 0.31898112579942345"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_convtrans_conv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.8909542600000002 +- 0.3802585077642214"
+        }
+    },
+    "BF_convtrans_convtrans": {
+        "convtrans_1": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_convtrans_convtrans_convtrans_1.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.7218369600000001 +- 0.2960944751364308"
+        },
+        "convtrans_2": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_convtrans_convtrans_convtrans_2.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.25918558 +- 0.302100370962572"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_convtrans_convtrans_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.8991359200000002 +- 0.5337420264159396"
+        }
+    },
+    "BF_convtrans_dwconv": {
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_convtrans_dwconv_convtrans.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.2394327399999998 +- 0.29100132718995014"
+        },
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_convtrans_dwconv_dwconv.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.23794041999999993 +- 0.07962502034463538"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_convtrans_dwconv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.0950791200000003 +- 0.3070213785135908"
+        }
+    },
+    "BF_convtrans_relu": {
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_convtrans_relu_convtrans.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.3376034799999996 +- 0.3494511589879902"
+        },
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_convtrans_relu_relu.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.07347574000000001 +- 0.003283666035454886"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_convtrans_relu_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.3373772799999997 +- 0.23000446004910774"
+        }
+    },
+    "BF_convtrans_reshape": {
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_convtrans_reshape_convtrans.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.1349660400000001 +- 0.1426765352699539"
+        },
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_convtrans_reshape_reshape.pt",
+            "shapes": [
+                [
+                    128,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.00222986 +- 5.03559370878946e-05"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_convtrans_reshape_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.27821772 +- 0.3235002949788479"
+        }
+    },
+    "BF_dwconv_add": {
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_add_dwconv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.22809588000000006 +- 0.07929338817370335"
+        },
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_add_add.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.07755890000000004 +- 0.0050344715760445"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_add_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.21954019999999996 +- 0.07106076547744192"
+        }
+    },
+    "BF_dwconv_avgpool": {
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_avgpool_dwconv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.29674208 +- 0.11841679417833266"
+        },
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_avgpool_avgpool.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.13486669999999998 +- 0.02299426030230153"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_avgpool_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.32228676000000006 +- 0.1477974165724909"
+        }
+    },
+    "BF_dwconv_bn": {
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_bn_dwconv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.2392152399999999 +- 0.08539269517905147"
+        },
+        "bn": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_bn_bn.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.2605709399999999 +- 0.03557656779421534"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_bn_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.39929161999999996 +- 0.19996878499364745"
+        }
+    },
+    "BF_dwconv_concat": {
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_concat_dwconv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.24492625999999998 +- 0.07445725081543368"
+        },
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_concat_concat.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.11685315999999998 +- 0.004469355391373572"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_concat_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.18535121999999998 +- 0.07265401346031478"
+        }
+    },
+    "BF_dwconv_conv": {
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_conv_dwconv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.36424222 +- 0.11085147928364149"
+        },
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_conv_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.0903138 +- 0.16883253326974634"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_conv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.8430458600000001 +- 0.18590985317137013"
+        }
+    },
+    "BF_dwconv_convtrans": {
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_convtrans_dwconv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.20872847999999988 +- 0.0665736337008098"
+        },
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_convtrans_convtrans.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.3265917600000001 +- 0.3161291935565305"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_convtrans_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.4785318799999999 +- 0.1567509485730329"
+        }
+    },
+    "BF_dwconv_dwconv": {
+        "dwconv_1": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_dwconv_dwconv_1.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.22801036 +- 0.09316906315999104"
+        },
+        "dwconv_2": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_dwconv_dwconv_2.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.20198750000000001 +- 0.06822794248553887"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_dwconv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.22390994000000009 +- 0.06506560512941073"
+        }
+    },
+    "BF_dwconv_relu": {
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_relu_dwconv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.22560551999999995 +- 0.0878342850686997"
+        },
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_relu_relu.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.07806694 +- 0.016657441825694605"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_relu_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.20456375999999996 +- 0.0670470934303822"
+        }
+    },
+    "BF_dwconv_reshape": {
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_reshape_dwconv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.23196480000000005 +- 0.08326636968764761"
+        },
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_reshape_reshape.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.004666760000000002 +- 0.005017512126781559"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_dwconv_reshape_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.20959102000000002 +- 0.07395378188774122"
+        }
+    },
+    "BF_fc_add": {
+        "fc": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_fc_add_fc.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ],
+            "latency": "0.08914078 +- 0.006502491784816035"
+        },
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_fc_add_add.pt",
+            "shapes": [
+                [
+                    128
+                ],
+                [
+                    128
+                ]
+            ],
+            "latency": "0.016966959999999996 +- 0.0004929340710480462"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_fc_add_block.pt",
+            "shapes": [
+                [
+                    428
+                ],
+                [
+                    128
+                ]
+            ],
+            "latency": "0.11132442000000001 +- 0.008464924021135687"
+        }
+    },
+    "BF_fc_concat": {
+        "fc": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_fc_concat_fc.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ],
+            "latency": "0.09241128 +- 0.008954012901576588"
+        },
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_fc_concat_concat.pt",
+            "shapes": [
+                [
+                    128
+                ],
+                [
+                    128
+                ]
+            ],
+            "latency": "0.018196860000000002 +- 0.0032541114916978483"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_fc_concat_block.pt",
+            "shapes": [
+                [
+                    428
+                ],
+                [
+                    128
+                ]
+            ],
+            "latency": "0.10137749999999998 +- 0.0069339864962372115"
+        }
+    },
+    "BF_fc_fc": {
+        "fc_1": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_fc_fc_fc_1.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ],
+            "latency": "0.0912382 +- 0.0021384764670203883"
+        },
+        "fc_2": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_fc_fc_fc_2.pt",
+            "shapes": [
+                [
+                    128
+                ]
+            ],
+            "latency": "0.058728860000000015 +- 0.02662223518114886"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_fc_fc_block.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ],
+            "latency": "0.1791844 +- 0.006138098418891638"
+        }
+    },
+    "BF_fc_relu": {
+        "fc": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_fc_relu_fc.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ],
+            "latency": "0.10091642 +- 0.02136043124104942"
+        },
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_fc_relu_relu.pt",
+            "shapes": [
+                [
+                    128
+                ]
+            ],
+            "latency": "0.0059614199999999985 +- 0.005994978105347842"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_fc_relu_block.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ],
+            "latency": "0.08189907999999999 +- 0.02788307356862941"
+        }
+    },
+    "BF_fc_reshape": {
+        "fc": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_fc_reshape_fc.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ],
+            "latency": "0.10706908 +- 0.02189017954411521"
+        },
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_fc_reshape_reshape.pt",
+            "shapes": [
+                [
+                    128
+                ]
+            ],
+            "latency": "0.01463446 +- 0.00037767389160491335"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_fc_reshape_block.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ],
+            "latency": "0.11774 +- 0.03630498269053437"
+        }
+    },
+    "BF_relu_add": {
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_add_relu.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.07407778 +- 0.004082140831916508"
+        },
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_add_add.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.08162025999999999 +- 0.026658079712394887"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_add_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.1392142 +- 0.006751132124318115"
+        }
+    },
+    "BF_relu_avgpool": {
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_avgpool_relu.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.07471006 +- 0.006218847775625321"
+        },
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_avgpool_avgpool.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.12283204000000002 +- 0.004320903085976357"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_avgpool_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.19087139999999997 +- 0.003967108977580525"
+        }
+    },
+    "BF_relu_concat": {
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_concat_relu.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.07498876 +- 0.006100392795746846"
+        },
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_concat_concat.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.15422138 +- 0.008507557691582231"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_concat_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.20158887999999997 +- 0.00964562722821072"
+        }
+    },
+    "BF_relu_conv": {
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_conv_relu.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.07484824 +- 0.002545195548951004"
+        },
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_conv_conv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.0260975 +- 0.10255655898171508"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_conv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.19321218 +- 0.2209638333146572"
+        }
+    },
+    "BF_relu_convtrans": {
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_convtrans_relu.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.07282824 +- 0.010492496510478334"
+        },
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_convtrans_convtrans.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.1746675199999999 +- 0.25366337938048844"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_convtrans_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.3718388800000003 +- 0.1996768838548559"
+        }
+    },
+    "BF_relu_dwconv": {
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_dwconv_relu.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.07120663999999997 +- 0.0077386177441711125"
+        },
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_dwconv_dwconv.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.2318871 +- 0.07953097517049568"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_dwconv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.23984940000000005 +- 0.08342657729333021"
+        }
+    },
+    "BF_relu_fc": {
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_fc_relu.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ],
+            "latency": "0.00245452 +- 6.39319137833367e-05"
+        },
+        "fc": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_fc_fc.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ],
+            "latency": "0.10380713999999999 +- 0.00833864074297484"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_fc_block.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ],
+            "latency": "0.06641068 +- 0.01379032855800035"
+        }
+    },
+    "BF_relu_relu": {
+        "relu_1": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_relu_relu_1.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.07978396000000001 +- 0.007945856492436796"
+        },
+        "relu_2": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_relu_relu_2.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.07312058 +- 0.008929044661306158"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_relu_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.13680738 +- 0.015766942781516014"
+        }
+    },
+    "BF_relu_reshape": {
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_reshape_relu.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.07922415999999999 +- 0.040226760815835025"
+        },
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_reshape_reshape.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.01453156 +- 0.0003726468655443113"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_relu_reshape_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.07328777999999998 +- 0.007785466473603235"
+        }
+    },
+    "BF_reshape_add": {
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_add_reshape.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.010018519999999998 +- 0.006119940997231918"
+        },
+        "add": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_add_add.pt",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ],
+            "latency": "0.06906508 +- 0.0053741579613554346"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_add_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ],
+            "latency": "0.07233502000000003 +- 0.00221672157466832"
+        }
+    },
+    "BF_reshape_avgpool": {
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_avgpool_reshape.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.01005328 +- 0.006059216966044375"
+        },
+        "avgpool": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_avgpool_avgpool.pt",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ],
+            "latency": "0.12335752 +- 0.0030680884227153567"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_avgpool_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.12539198 +- 0.002776527554266301"
+        }
+    },
+    "BF_reshape_concat": {
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_concat_reshape.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.008845259999999997 +- 0.006191849881287498"
+        },
+        "concat": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_concat_concat.pt",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ],
+            "latency": "0.12021382000000001 +- 0.004104560735036089"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_concat_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ],
+            "latency": "0.12714013999999996 +- 0.011394005213286503"
+        }
+    },
+    "BF_reshape_conv": {
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_conv_reshape.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.00704774 +- 0.00600270093811111"
+        },
+        "conv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_conv_conv.pt",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ],
+            "latency": "1.0508139 +- 0.12155662384637869"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_conv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.9190924000000001 +- 0.2695987459568015"
+        }
+    },
+    "BF_reshape_convtrans": {
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_convtrans_reshape.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.008147899999999998 +- 0.006167829012707794"
+        },
+        "convtrans": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_convtrans_convtrans.pt",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ],
+            "latency": "1.3856590800000002 +- 0.26338616520492036"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_convtrans_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "1.25000858 +- 0.36228579983819903"
+        }
+    },
+    "BF_reshape_dwconv": {
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_dwconv_reshape.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.013567539999999998 +- 0.003494781957204197"
+        },
+        "dwconv": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_dwconv_dwconv.pt",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ],
+            "latency": "0.26048302 +- 0.08609561836551033"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_dwconv_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.2589862 +- 0.08338593493005879"
+        }
+    },
+    "BF_reshape_fc": {
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_fc_reshape.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ],
+            "latency": "0.013866739999999999 +- 0.0030020101652725967"
+        },
+        "fc": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_fc_fc.pt",
+            "shapes": [
+                [
+                    1,
+                    2,
+                    214
+                ]
+            ],
+            "latency": "0.010473219999999998 +- 9.022134780638119e-05"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_fc_block.pt",
+            "shapes": [
+                [
+                    428
+                ]
+            ],
+            "latency": "0.010980820000000004 +- 9.754192739535142e-05"
+        }
+    },
+    "BF_reshape_relu": {
+        "reshape": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_relu_reshape.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.011008580000000004 +- 0.0057666215346249316"
+        },
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_relu_relu.pt",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ],
+            "latency": "0.07578416 +- 0.006040234850930881"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_relu_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.07821581999999999 +- 0.004362356646080191"
+        }
+    },
+    "BF_reshape_reshape": {
+        "reshape_1": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_reshape_reshape_1.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.01400426 +- 0.002517166206749169"
+        },
+        "reshape_2": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_reshape_reshape_2.pt",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ],
+            "latency": "0.014644560000000003 +- 0.0004170614899508227"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_reshape_reshape_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.0067566799999999975 +- 0.00670684993253912"
+        }
+    },
+    "BF_se_relu": {
+        "se": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_se_relu_se.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.09199535999999998 +- 0.01220216978862366"
+        },
+        "relu": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_se_relu_relu.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.07991419999999999 +- 0.026842961446904477"
+        },
+        "block": {
+            "model": "/mnt/sda/nn-Meter/workspaces/pytorch_cpu/fusion_rule_test/testcases/BF_se_relu_block.pt",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ],
+            "latency": "0.2661222999999999 +- 0.057235581052785686"
+        }
+    }
+}

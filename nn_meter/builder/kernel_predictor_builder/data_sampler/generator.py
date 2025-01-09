@@ -21,7 +21,13 @@ class KernelGenerator:
         self.kernels = self.kernel_info[self.kernel_type]
         self.implement = builder_config.get('IMPLEMENT', 'predbuild')
         self.batch_size = builder_config.get('BATCH_SIZE', 'predbuild')
-        self.model_suffix = "" if self.implement == 'tensorflow' else ".onnx"
+        # NOTICE: check model_suffix for different implement
+        if self.implement == "tensorflow":
+            self.model_suffix = ""
+        elif self.implement == "torch":
+            self.model_suffix = ".pt"
+        else:
+            self.model_suffix = ".onnx"
         self.mark = mark
         os.makedirs(self.case_save_path, exist_ok=True)
 
@@ -39,14 +45,24 @@ class KernelGenerator:
         logging.info(f"building kernel for {kernel_type}...")
         count = 0
         error_save_path = os.path.join(self.workspace_path, 'results', 'generate_error.log')
+
         for id, value in self.kernels.items():
             model_path = os.path.join(self.case_save_path, ("_".join([kernel_type, self.mark, id]) + self.model_suffix))
             kernel_cfg = value['config']
             try:
+                # generate and save model for kernel
                 _, input_tensor_shape, config = generate_model_for_kernel(
                     kernel_type, kernel_cfg, save_path=model_path,
                     implement=self.implement, batch_size=self.batch_size
                 )
+                # if self.implement == 'torch':
+                #     # for pytorch implementation, 'model' is the structure of the model
+                #     self.kernels[id] = {
+                #         'model': model,
+                #         'shapes': input_tensor_shape,
+                #         'config': config
+                #     }
+                # else:
                 self.kernels[id] = {
                     'model': model_path,
                     'shapes': input_tensor_shape,
@@ -60,6 +76,17 @@ class KernelGenerator:
         info_save_path = os.path.join(self.workspace_path, "results", f"{kernel_type}_{self.mark}.json")
         new_kernels_info = merge_info(new_info=self.kernel_info, info_save_path=info_save_path)
         os.makedirs(os.path.dirname(info_save_path), exist_ok=True)
+
+        # if self.implement == 'torch':
+        #     # for torch implementation, 'model' is the structure of the model, which is not serializable
+        #     from copy import deepcopy
+        #     new_kernels_info_json = deepcopy(new_kernels_info)
+        #     kernels = new_kernels_info_json[self.kernel_type]
+        #     for id, value in kernels.items():
+        #         value['model'] = str(value['model'])
+        #     with open(info_save_path, 'w') as fp:
+        #         json.dump(new_kernels_info_json, fp, indent=4)
+        # else:
         with open(info_save_path, 'w') as fp:
             json.dump(new_kernels_info, fp, indent=4)
         logging.keyinfo(f"Generate {len(self.kernels)} kernels and save info to {info_save_path} " \
@@ -74,8 +101,8 @@ class KernelGenerator:
         """
         # sample configs
         self.generate_config(sampling_mode, configs)
-        
-        # for all sampled configurations, save kernels info and generate tensorflow model files 
+
+        # for all sampled configurations, save kernels info and generate tensorflow model files
         self.generate_kernel_by_cfg()
         logging.info(f'Generate {len(self.kernels)} kernels with kernels model saved in {self.case_save_path}.')
         return self.kernel_info
@@ -94,7 +121,7 @@ def generate_config_sample(kernel_type, sample_num, mark = '', sampling_mode = '
     sampling_mode (str, optional): the sampling mode for config generation, supporting mode includes 'prior' and 'finegrained'.
         Defaults to be 'prior'.
 
-    configs (list, optional): is required when the sampling_mode=='finegrained'. The fingrained samples will based on the config 
+    configs (list, optional): is required when the sampling_mode=='finegrained'. The finegrained samples will be based on the config
         in `configs`. Defaults to None.
 
     """

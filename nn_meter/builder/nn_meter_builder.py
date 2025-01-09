@@ -7,7 +7,7 @@ import signal
 import logging
 import subprocess
 from . import builder_config
-from .utils import save_profiled_results, merge_info, handle_timeout
+from .utils import save_profiled_results, merge_info, handle_timeout, handle_torch_json
 from nn_meter.builder.backends import connect_backend
 logging = logging.getLogger("nn-Meter")
 
@@ -78,7 +78,7 @@ def profile_models(backend, models, mode = 'ruletest', metrics = ["latency"], sa
 
     backend (subclass instance of BaseBackend): applied backend instance
 
-    models (str or dict): the Dict of models or the path of the json file about models information 
+    models (str or dict): the Dict of models or the string path of the json file about models information
 
     mode (str): the mode for running models, including ['ruletest', 'predbuild']
 
@@ -88,12 +88,12 @@ def profile_models(backend, models, mode = 'ruletest', metrics = ["latency"], sa
 
     have_converted (boolean): if the model have been converted to the needed format by backend, the model will not be converted
         before profiling. The model path of `model['converted_model']` will be profiled on device directly. The conversion of
-        model could be done by appling `nn_meter.builder.convert_models`
+        model could be done by applying `nn_meter.builder.convert_models`
 
     broken_point_mode (boolean): broken_point_mode will check file in `<workspace>/<mode-folder>/results/<save-name>` (if the file exists)
         and skip all models already have attributes "latency"
 
-    time_threshold (int): the time threshold for profiling one single model. If the total profiling time of a model is longger than the
+    time_threshold (int): the time threshold for profiling one single model. If the total profiling time of a model is longer than the
          `time_threshold` (second), nn-Meter will log a profiling timeout error for this model and step to profile the next model.
 
     model_save_path (str or None): path to save converted models, if not set, the converted model will be placed in
@@ -102,7 +102,7 @@ def profile_models(backend, models, mode = 'ruletest', metrics = ["latency"], sa
     **kwargs: arguments for profiler, such as `taskset` and `close_xnnpack` in TFLite profiler
     """
     signal.signal(signal.SIGALRM, handle_timeout)
-    if isinstance(models, str):
+    if isinstance(models, str): # string path of the json file about models information
         with open(models, 'r') as fp:
             models = json.load(fp)
 
@@ -130,10 +130,25 @@ def profile_models(backend, models, mode = 'ruletest', metrics = ["latency"], sa
     detail = builder_config.get('DETAIL', mode)
     save_name = save_name or "profiled_results.json"
     logging.info("Profiling ...")
+
+    IMPLEMENT = builder_config.get('IMPLEMENT', mode)
     for module in models.values():
         for id, model in module.items():
             if broken_point_mode and 'latency' in model and model['latency'].avg != 0:
                 continue
+            # torch backend is different from other backends because it does not need to save and load model, only the torch defined model is needed
+            # if IMPLEMENT == 'torch':
+            #     try:
+            #         model_structure = model['model']
+            #         signal.alarm(time_threshold)
+            #         profiled_res = backend.profile(model_structure, metrics, input_shape=model['shapes'], **kwargs)
+            #         signal.alarm(0)
+            #         for metric in metrics:
+            #             model[metric] = profiled_res[metric]
+            #         time.sleep(0.2)
+            #         count += 1
+            #     except Exception as e:
+            #         open(error_save_path, 'a').write(f"{id}: {e}\n")
             if have_converted: # the models have been converted for the backend
                 try:
                     model_path = model['converted_model']
@@ -162,6 +177,12 @@ def profile_models(backend, models, mode = 'ruletest', metrics = ["latency"], sa
             # save information to json file for per 50 models
             if count > 0 and count % log_frequency == 0:
                 freq = None
+                # if IMPLEMENT == 'torch':
+                #     from copy import deepcopy
+                #     models_for_json = deepcopy(models)
+                #     handle_torch_json(models_for_json)
+                #     save_profiled_results(models_for_json, info_save_path, detail, metrics)
+                # else:
                 save_profiled_results(models, info_save_path, detail, metrics)
                 logging.keyinfo(f"{count} models complete. Still profiling... Save the intermediate results to {info_save_path} ")
                 if is_pixel6 != None:
@@ -176,8 +197,14 @@ def profile_models(backend, models, mode = 'ruletest', metrics = ["latency"], sa
                         loop += 1
                         print(f"[freq: {freq}] loop {loop}")
 
-    # save information to json file
-    save_profiled_results(models, info_save_path, detail, metrics)    
+    # # save information to json file
+    # if IMPLEMENT == 'torch':
+    #     from copy import deepcopy
+    #     models_for_json = deepcopy(models)
+    #     handle_torch_json(models_for_json)
+    #     save_profiled_results(models_for_json, info_save_path, detail, metrics)
+    # else:
+    save_profiled_results(models, info_save_path, detail, metrics)
     logging.keyinfo(f"All {count} models profiling complete. Save all success profiled results to {info_save_path} " \
                     f"Failed information are saved in {error_save_path} (if any)")
 
@@ -235,6 +262,8 @@ def build_predictor_for_kernel(kernel_type, backend, init_sample_num = 1000, fin
     kernel_data = sample_and_profile_kernel_data(kernel_type, init_sample_num, backend, sampling_mode='prior', mark=f'prior{mark}')
 
     # use current sampled data to build regression model, and locate data with large errors in testset
+    # add save_path for torch implementation to save data.csv and predictor.pkl
+    # the backend parameter is used to determine the implementation of predictor
     predictor, acc10, error_configs = build_predictor_by_data(kernel_type, kernel_data, backend, error_threshold=error_threshold, mark=f'prior{mark}',
                                                               save_path=os.path.join(workspace_path, "results"), predict_label=predict_label)
     logging.keyinfo(f'Iteration 0: acc10 {acc10}, error_configs number: {len(error_configs)}')

@@ -166,6 +166,13 @@ def get_data_by_profiled_results(kernel_type, feature_parser, cfgs_path, labs_pa
     else:
         labs_dict = labs_path[kernel_type] if kernel_type in labs_path else labs_path
 
+
+    # # use first half of the cfgs_dict and labs_dict to build predictor, give me the code:
+    # cfgs_dict = dict(list(cfgs_dict.items())[:2000])
+    # labs_dict = dict(list(labs_dict.items())[:2000])
+
+
+
     paths, features, labs = [], [], []
     for id in labs_dict.keys():
         try:
@@ -177,12 +184,12 @@ def get_data_by_profiled_results(kernel_type, feature_parser, cfgs_path, labs_pa
             else:
                 label = labs_dict[id][predict_label]
             if label != 0.0:
+                # add save_path for torch implementation
                 paths.append(os.path.basename(path))
                 features.append(feature)
                 labs.append(label)
         except:
             pass
-
     if len(features) == 0:
         raise ValueError(f"Didn't find any data of {kernel_type} for predictor training. There maybe some error about model profiling. Please check the profiling error in " \
             "`<workspace>/predictor_build/results/profile_error.log`")

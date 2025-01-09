@@ -85,10 +85,13 @@ def generate_model_for_kernel(kernel_type, config, save_path, implement='tensorf
     input_tensor_shape = kernel_class.input_tensor_shape
     model = kernel_class.get_model()
 
-    # save model file to savepath
+    # # distinguish different implement
+    # if implement == 'torch':
+    #     logging.info(f"{kernel_type} model is generated.")
+    # else:
+    #     # save model file to savepath
     kernel_class.save_model(save_path)
     logging.info(f"{kernel_type} model is generated and saved to {save_path}.")
-
     return model, input_tensor_shape, config
 
 

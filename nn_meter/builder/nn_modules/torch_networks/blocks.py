@@ -26,17 +26,20 @@ class TorchBlock(BaseBlock):
     def save_model(self, save_path):
         model = self.get_model()
         model.eval()
-        torch.onnx.export(
-            model,
-            get_inputs_by_shapes(self.input_tensor_shape, self.batch_size),
-            save_path,
-            input_names=['input'],
-            output_names=['output'],
-            verbose=False,
-            export_params=True,
-            opset_version=12,
-            do_constant_folding=True,
-        )
+        # torch.onnx.export(
+        #     model,
+        #     get_inputs_by_shapes(self.input_tensor_shape, self.batch_size),
+        #     save_path,
+        #     input_names=['input'],
+        #     output_names=['output'],
+        #     verbose=False,
+        #     export_params=True,
+        #     opset_version=12,
+        #     do_constant_folding=True,
+        # )
+        example_inputs = get_inputs_by_shapes(self.input_tensor_shape, self.batch_size)
+        traced_model = torch.jit.trace(model, example_inputs=example_inputs)
+        traced_model.save(save_path)
 
     def build_model(self, ops):
         ''' convert a list of operators to torch model.
@@ -385,7 +388,14 @@ class ConcatBlock(TorchBlock):
                 super().__init__()
                 self.concat = concat_op
 
-            def forward(self, inputs):
+            def forward(self, *inputs):
+                if len(inputs) == 1:
+                    # for torch.jit.trace, the inputs is a tuple of one element (one tensor)
+                    # for other inference framework, the inputs is a tuple of one element (one tensor or a list of tensors)
+                    inputs = inputs[0]
+                else:
+                    # for torch.jit.trace, the inputs is a tuple of multiple tensors (originally, a list of tensors)
+                    inputs = list(inputs)
                 return self.concat(inputs)
 
         return Model(self.concat_op)

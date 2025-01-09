@@ -1,0 +1,3 @@
+WEIGHT_HUB_PATH: /mnt/sda/.cache/torch/hub/checkpoints/
+NUM_RUNS: 50
+WARM_UPS: 20

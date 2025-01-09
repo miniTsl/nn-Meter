@@ -70,6 +70,7 @@ def generate_testcases():
     if config['BASIC_TESTCASES'] != None:
         testcases = [case.split('_') for case in config['BASIC_TESTCASES']]
         d1_required_layers = config['LAYERS_1D']
+        # print(testcases)
         for op1, op2 in testcases:
             class_name = f'BasicFusion_{op1}_{op2}'
             name = f'BF_{op1}_{op2}'
@@ -83,6 +84,8 @@ def generate_testcases():
                     input_shape = [config['HW'], config['HW'], config['CIN']]
                 else:
                     input_shape = [config['CIN'], config['HW'], config['HW']]
+            # creates a new class using Python's type function. The class is a subclass of BasicFusion.
+            # The third argument is a dictionary that defines the attributes of the new class.
             bf_cls = type(class_name, (BasicFusion,), {
                 'name': name,
                 'cases': cases,

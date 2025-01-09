@@ -1,5 +1,6 @@
 # Copyright (c) Microsoft Corporation.
 # Licensed under the MIT license.
+import torch
 from torch import nn
 from .interface import BaseTestCase
 
@@ -9,9 +10,15 @@ class SingleOpModel(nn.Module):
         super().__init__()
         self.op = op
 
-    def forward(self, inputs):
+    def forward(self, *inputs):
+        if len(inputs) == 1:
+            # for torch.jit.trace, the inputs is a tuple of one element (one tensor)
+            # for other inference framework, the inputs is a tuple of one element (one tensor or a list of tensors)
+            inputs = inputs[0]
+        else:
+            # for torch.jit.trace, the inputs is a tuple of multiple tensors (originally, a list of tensors)
+            inputs = list(inputs)
         return self.op(inputs)
-
 
 class TwoOpModel(nn.Module):
     def __init__(self, op1, op2, op1_is_two_inputs, op2_is_two_inputs):
@@ -21,7 +28,14 @@ class TwoOpModel(nn.Module):
         self.op1_is_two_inputs = op1_is_two_inputs
         self.op2_is_two_inputs = op2_is_two_inputs
 
-    def forward(self, inputs):
+    def forward(self, *inputs):
+        if len(inputs) == 1:
+            # for torch.jit.trace, the inputs is a tuple of one element (one tensor)
+            # for other inference framework, the inputs is a tuple of one element (one tensor or a list of tensors)
+            inputs = inputs[0]
+        else:
+            # for torch.jit.trace, the inputs is a tuple of multiple tensors (originally, a list of tensors)
+            inputs = list(inputs)
         if self.op1_is_two_inputs:
             x = self.op1([inputs[0], inputs[1]])
         else:
@@ -66,4 +80,3 @@ class MultipleOutNodes(BaseTestCase):
 
     def _model_dwconv(self):
         raise NotImplementedError
-

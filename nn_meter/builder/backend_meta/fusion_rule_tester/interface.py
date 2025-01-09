@@ -4,6 +4,7 @@ import os
 import json
 import logging
 from ..utils import read_profiled_results
+from ...utils import handle_torch_json
 from nn_meter.builder.utils import merge_info
 from nn_meter.builder.backend_meta.utils import Latency
 logging = logging.getLogger("nn-Meter")
@@ -51,12 +52,13 @@ class BaseTestCase:
     def save_testcase(self):
         from .utils import save_model
         testcase = self.generate_testcase()
-
+        # if the implement is not torch, save the model to the workspace
+        # but for torch, the model is ready to use for profiling
+        # if self.implement != "torch":
         for op, model in testcase.items():
             model_path = os.path.join(self.workspace_path, self.name + '_' + op)
             model_path = save_model(model, model_path, self.implement)
             testcase[op]['model'] = model_path
-
         return testcase
 
     def load_latency(self, testcase):
@@ -96,7 +98,7 @@ class BaseTestCase:
 def generate_testcases():
     """generate testcases and save the testcase models and testcase json file in the workspace
     Users could edit the configurations of testcases in <workspace-path>/configs/ruletest_config.yaml.
-    The config will take effect after the the config file is saved and closed.
+    The config will take effect after the config file is saved and closed.
     """
     from nn_meter.builder import builder_config
     config = builder_config.get_module('ruletest')
@@ -104,6 +106,12 @@ def generate_testcases():
     from .test_fusion_rule import FusionRuleTester
     tester = FusionRuleTester()
     testcases = tester.generate()
+
+    # from copy import deepcopy
+    # testcases_for_json = deepcopy(testcases)
+    #
+    # if config['IMPLEMENT'] == 'torch':
+    #     handle_torch_json(testcases_for_json) # for torch implement, the "model" value is pytorch model instance, so we need to change it into corresponding string
 
     # save information to json file
     workspace_path = config['WORKSPACE']

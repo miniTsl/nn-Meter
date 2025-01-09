@@ -25,6 +25,7 @@ class FusionRuleTester:
         testcases = {}
 
         for name, cls in self._testcases.items():
+            # pass the global config to the testcase instance, initialized from the class defined in the function generate_testcases() from .generate_testcase
             testcases[name] = cls(config).save_testcase()
 
         return testcases

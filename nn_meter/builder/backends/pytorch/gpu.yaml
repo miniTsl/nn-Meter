@@ -1,0 +1,5 @@
+builtin_name: pytorch_gpu
+package_location: /mnt/sda/nn-Meter/nn_meter/builder/backends/pytorch
+class_module: gpu
+class_name: PytorchGPUBackend
+defaultConfigFile: /mnt/sda/nn-Meter/nn_meter/builder/backends/pytorch/default_config.yaml
