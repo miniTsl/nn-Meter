@@ -1,0 +1,264 @@
+(nn-Meter) All 3000 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_conv-bn-relu.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for conv-bn-relu in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_conv-bn-relu_prior.csv.
+(nn-Meter) training data size: 2400, test data size: 600
+(nn-Meter) rmse: 53.6274; rmspe: 61.8150; error: 6.7922; 5% accuracy: 0.2067; 10% accuracy: 0.3800; 15% accuracy: 0.5017.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_conv-bn-relu_prior.csv
+(nn-Meter) Saved the predictor for conv-bn-relu in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/conv-bn-relu_prior.pkl.
+(nn-Meter) Iteration 0: acc10 0.38, error_configs number: 372
+
+(nn-Meter) All 6670 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_conv-bn-relu.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for conv-bn-relu in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_conv-bn-relu_finegrained1.csv.
+(nn-Meter) training data size: 7736, test data size: 1934
+(nn-Meter) rmse: 5.4005; rmspe: 37.0369; error: 0.6847; 5% accuracy: 0.2213; 10% accuracy: 0.3862; 15% accuracy: 0.5212.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_conv-bn-relu_finegrained1.csv
+(nn-Meter) Saved the predictor for conv-bn-relu in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/conv-bn-relu_finegrained1.pkl.
+(nn-Meter) Iteration 1: acc10 0.3862461220268873, error_configs number: 1187
+
+(nn-Meter) All 21643 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_conv-bn-relu.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for conv-bn-relu in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_conv-bn-relu_finegrained2.csv.
+(nn-Meter) training data size: 25050, test data size: 6263
+(nn-Meter) rmse: 2.8690; rmspe: 35.2628; error: 0.8764; 5% accuracy: 0.2055; 10% accuracy: 0.3679; 15% accuracy: 0.4994.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_conv-bn-relu_finegrained2.csv
+(nn-Meter) Saved the predictor for conv-bn-relu in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/conv-bn-relu_finegrained2.pkl.
+(nn-Meter) Iteration 2: acc10 0.36787482037362285, error_configs number: 3959
+
+(nn-Meter) All 1500 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_dwconv-bn-relu.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for dwconv-bn-relu in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_dwconv-bn-relu_prior.csv.
+(nn-Meter) training data size: 1200, test data size: 300
+(nn-Meter) rmse: 0.4857; rmspe: 38.7125; error: 0.7238; 5% accuracy: 0.2600; 10% accuracy: 0.4333; 15% accuracy: 0.5333.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_dwconv-bn-relu_prior.csv
+(nn-Meter) Saved the predictor for dwconv-bn-relu in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/dwconv-bn-relu_prior.pkl.
+(nn-Meter) Iteration 0: acc10 0.43333333333333335, error_configs number: 170
+
+(nn-Meter) All 3329 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_dwconv-bn-relu.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for dwconv-bn-relu in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_dwconv-bn-relu_finegrained1.csv.
+(nn-Meter) training data size: 3863, test data size: 966
+(nn-Meter) rmse: 0.3667; rmspe: 43.7805; error: 0.6899; 5% accuracy: 0.2412; 10% accuracy: 0.4017; 15% accuracy: 0.5238.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_dwconv-bn-relu_finegrained1.csv
+(nn-Meter) Saved the predictor for dwconv-bn-relu in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/dwconv-bn-relu_finegrained1.pkl.
+(nn-Meter) Iteration 1: acc10 0.40165631469979296, error_configs number: 578
+
+(nn-Meter) All 11286 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_dwconv-bn-relu.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for dwconv-bn-relu in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_dwconv-bn-relu_finegrained2.csv.
+(nn-Meter) training data size: 12892, test data size: 3223
+(nn-Meter) rmse: 0.2301; rmspe: 34.7792; error: 0.4930; 5% accuracy: 0.2097; 10% accuracy: 0.3779; 15% accuracy: 0.4893.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_dwconv-bn-relu_finegrained2.csv
+(nn-Meter) Saved the predictor for dwconv-bn-relu in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/dwconv-bn-relu_finegrained2.pkl.
+(nn-Meter) Iteration 2: acc10 0.37790878063915606, error_configs number: 2005
+
+(nn-Meter) All 1500 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_maxpool.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for maxpool in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_maxpool_prior.csv.
+(nn-Meter) training data size: 1200, test data size: 300
+(nn-Meter) rmse: 0.8288; rmspe: 24.8246; error: 0.3043; 5% accuracy: 0.3233; 10% accuracy: 0.5200; 15% accuracy: 0.6367.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_maxpool_prior.csv
+(nn-Meter) Saved the predictor for maxpool in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/maxpool_prior.pkl.
+(nn-Meter) Iteration 0: acc10 0.52, error_configs number: 144
+
+(nn-Meter) All 2877 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_maxpool.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for maxpool in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_maxpool_finegrained1.csv.
+(nn-Meter) training data size: 3501, test data size: 876
+(nn-Meter) rmse: 1.1592; rmspe: 42.7888; error: 0.5324; 5% accuracy: 0.3025; 10% accuracy: 0.4692; 15% accuracy: 0.6153.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_maxpool_finegrained1.csv
+(nn-Meter) Saved the predictor for maxpool in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/maxpool_finegrained1.pkl.
+(nn-Meter) Iteration 1: acc10 0.4691780821917808, error_configs number: 465
+
+(nn-Meter) All 9299 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_maxpool.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for maxpool in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_maxpool_finegrained2.csv.
+(nn-Meter) training data size: 10940, test data size: 2736
+(nn-Meter) rmse: 0.3008; rmspe: 47.5921; error: 0.2154; 5% accuracy: 0.2851; 10% accuracy: 0.4978; 15% accuracy: 0.6466.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_maxpool_finegrained2.csv
+(nn-Meter) Saved the predictor for maxpool in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/maxpool_finegrained2.pkl.
+(nn-Meter) Iteration 2: acc10 0.49780701754385964, error_configs number: 1374
+
+(nn-Meter) All 1500 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_avgpool.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for avgpool in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_avgpool_prior.csv.
+(nn-Meter) training data size: 1200, test data size: 300
+(nn-Meter) rmse: 0.2695; rmspe: 29.0030; error: 0.2694; 5% accuracy: 0.3667; 10% accuracy: 0.5467; 15% accuracy: 0.7200.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_avgpool_prior.csv
+(nn-Meter) Saved the predictor for avgpool in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/avgpool_prior.pkl.
+(nn-Meter) Iteration 0: acc10 0.5466666666666666, error_configs number: 136
+
+(nn-Meter) All 2715 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_avgpool.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for avgpool in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_avgpool_finegrained1.csv.
+(nn-Meter) training data size: 3372, test data size: 843
+(nn-Meter) rmse: 0.1297; rmspe: 58.9884; error: 0.1566; 5% accuracy: 0.3808; 10% accuracy: 0.5943; 15% accuracy: 0.7224.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_avgpool_finegrained1.csv
+(nn-Meter) Saved the predictor for avgpool in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/avgpool_finegrained1.pkl.
+(nn-Meter) Iteration 1: acc10 0.594306049822064, error_configs number: 342
+
+(nn-Meter) All 6824 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_avgpool.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for avgpool in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_avgpool_finegrained2.csv.
+(nn-Meter) training data size: 8831, test data size: 2208
+(nn-Meter) rmse: 0.5857; rmspe: 44.1334; error: 0.8421; 5% accuracy: 0.3379; 10% accuracy: 0.5784; 15% accuracy: 0.7364.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_avgpool_finegrained2.csv
+(nn-Meter) Saved the predictor for avgpool in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/avgpool_finegrained2.pkl.
+(nn-Meter) Iteration 2: acc10 0.5783514492753623, error_configs number: 931
+
+(nn-Meter) All 1500 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_fc.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for fc in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_fc_prior.csv.
+(nn-Meter) training data size: 1200, test data size: 300
+(nn-Meter) rmse: 0.0976; rmspe: 38.7921; error: 0.0894; 5% accuracy: 0.4433; 10% accuracy: 0.6967; 15% accuracy: 0.8400.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_fc_prior.csv
+(nn-Meter) Saved the predictor for fc in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/fc_prior.pkl.
+(nn-Meter) Iteration 0: acc10 0.6966666666666667, error_configs number: 91
+
+(nn-Meter) All 1820 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_fc.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for fc in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_fc_finegrained1.csv.
+(nn-Meter) training data size: 2656, test data size: 664
+(nn-Meter) rmse: 0.0740; rmspe: 35.7900; error: 0.1104; 5% accuracy: 0.4187; 10% accuracy: 0.6807; 15% accuracy: 0.8328.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_fc_finegrained1.csv
+(nn-Meter) Saved the predictor for fc in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/fc_finegrained1.pkl.
+(nn-Meter) Iteration 1: acc10 0.6807228915662651, error_configs number: 212
+
+(nn-Meter) All 4240 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_fc.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for fc in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_fc_finegrained2.csv.
+(nn-Meter) training data size: 6048, test data size: 1512
+(nn-Meter) rmse: 0.0596; rmspe: 42.1860; error: 0.1300; 5% accuracy: 0.4253; 10% accuracy: 0.6898; 15% accuracy: 0.8360.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_fc_finegrained2.csv
+(nn-Meter) Saved the predictor for fc in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/fc_finegrained2.pkl.
+(nn-Meter) Iteration 2: acc10 0.6898148148148148, error_configs number: 469
+
+(nn-Meter) All 1500 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_concat.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for concat in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_concat_prior.csv.
+(nn-Meter) training data size: 1200, test data size: 300
+(nn-Meter) rmse: 0.0782; rmspe: 129.2432; error: 0.3118; 5% accuracy: 0.1800; 10% accuracy: 0.3300; 15% accuracy: 0.4633.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_concat_prior.csv
+(nn-Meter) Saved the predictor for concat in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/concat_prior.pkl.
+(nn-Meter) Iteration 0: acc10 0.33, error_configs number: 201
+
+(nn-Meter) All 3697 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_concat.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for concat in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_concat_finegrained1.csv.
+(nn-Meter) training data size: 4157, test data size: 1040
+(nn-Meter) rmse: 0.0694; rmspe: 69.2581; error: 0.3072; 5% accuracy: 0.2106; 10% accuracy: 0.3952; 15% accuracy: 0.5510.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_concat_finegrained1.csv
+(nn-Meter) Saved the predictor for concat in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/concat_finegrained1.pkl.
+(nn-Meter) Iteration 1: acc10 0.3951923076923077, error_configs number: 629
+
+(nn-Meter) All 11609 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_concat.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for concat in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_concat_finegrained2.csv.
+(nn-Meter) training data size: 13444, test data size: 3362
+(nn-Meter) rmse: 0.0749; rmspe: 50.9719; error: 0.3758; 5% accuracy: 0.2055; 10% accuracy: 0.3795; 15% accuracy: 0.5181.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_concat_finegrained2.csv
+(nn-Meter) Saved the predictor for concat in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/concat_finegrained2.pkl.
+(nn-Meter) Iteration 2: acc10 0.37953599048185604, error_configs number: 2086
+
+(nn-Meter) All 1500 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_split.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for split in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_split_prior.csv.
+(nn-Meter) training data size: 1200, test data size: 300
+(nn-Meter) rmse: 0.0032; rmspe: 48.0592; error: 0.6318; 5% accuracy: 0.6333; 10% accuracy: 0.6533; 15% accuracy: 0.6833.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_split_prior.csv
+(nn-Meter) Saved the predictor for split in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/split_prior.pkl.
+(nn-Meter) Iteration 0: acc10 0.6533333333333333, error_configs number: 104
+
+(nn-Meter) All 1891 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_split.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for split in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_split_finegrained1.csv.
+(nn-Meter) training data size: 2712, test data size: 679
+(nn-Meter) rmse: 0.0035; rmspe: 61.2033; error: 0.5579; 5% accuracy: 0.3358; 10% accuracy: 0.3770; 15% accuracy: 0.4227.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_split_finegrained1.csv
+(nn-Meter) Saved the predictor for split in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/split_finegrained1.pkl.
+(nn-Meter) Iteration 1: acc10 0.37702503681885124, error_configs number: 423
+
+(nn-Meter) All 8060 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_split.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for split in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_split_finegrained2.csv.
+(nn-Meter) training data size: 9160, test data size: 2291
+(nn-Meter) rmse: 0.0038; rmspe: 64.5078; error: 0.5525; 5% accuracy: 0.1475; 10% accuracy: 0.2156; 15% accuracy: 0.2641.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_split_finegrained2.csv
+(nn-Meter) Saved the predictor for split in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/split_finegrained2.pkl.
+(nn-Meter) Iteration 2: acc10 0.21562636403317328, error_configs number: 1797
+
+(nn-Meter) All 1500 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_channelshuffle.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for channelshuffle in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_channelshuffle_prior.csv.
+(nn-Meter) training data size: 1200, test data size: 300
+(nn-Meter) rmse: 0.1139; rmspe: 45.9192; error: 0.2489; 5% accuracy: 0.3633; 10% accuracy: 0.5967; 15% accuracy: 0.7067.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_channelshuffle_prior.csv
+(nn-Meter) Saved the predictor for channelshuffle in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/channelshuffle_prior.pkl.
+(nn-Meter) Iteration 0: acc10 0.5966666666666667, error_configs number: 121
+
+(nn-Meter) All 2368 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_channelshuffle.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for channelshuffle in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_channelshuffle_finegrained1.csv.
+(nn-Meter) training data size: 3094, test data size: 774
+(nn-Meter) rmse: 0.5582; rmspe: 44.0650; error: 1.9229; 5% accuracy: 0.3966; 10% accuracy: 0.5672; 15% accuracy: 0.6783.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_channelshuffle_finegrained1.csv
+(nn-Meter) Saved the predictor for channelshuffle in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/channelshuffle_finegrained1.pkl.
+(nn-Meter) Iteration 1: acc10 0.5671834625322998, error_configs number: 335
+
+(nn-Meter) All 6563 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_channelshuffle.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for channelshuffle in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_channelshuffle_finegrained2.csv.
+(nn-Meter) training data size: 8344, test data size: 2087
+(nn-Meter) rmse: 0.0851; rmspe: 46.3504; error: 0.3212; 5% accuracy: 0.3522; 10% accuracy: 0.5577; 15% accuracy: 0.6900.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_channelshuffle_finegrained2.csv
+(nn-Meter) Saved the predictor for channelshuffle in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/channelshuffle_finegrained2.pkl.
+(nn-Meter) Iteration 2: acc10 0.5577383804504072, error_configs number: 923
+
+(nn-Meter) All 1500 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_se.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for se in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_se_prior.csv.
+(nn-Meter) training data size: 1200, test data size: 300
+(nn-Meter) rmse: 0.2066; rmspe: 29.2763; error: 0.4371; 5% accuracy: 0.3867; 10% accuracy: 0.5500; 15% accuracy: 0.6567.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_se_prior.csv
+(nn-Meter) Saved the predictor for se in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/se_prior.pkl.
+(nn-Meter) Iteration 0: acc10 0.55, error_configs number: 135
+
+(nn-Meter) All 2675 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_se.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for se in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_se_finegrained1.csv.
+(nn-Meter) training data size: 3340, test data size: 835
+(nn-Meter) rmse: 0.1539; rmspe: 35.0898; error: 0.3177; 5% accuracy: 0.3389; 10% accuracy: 0.4970; 15% accuracy: 0.6000.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_se_finegrained1.csv
+(nn-Meter) Saved the predictor for se in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/se_finegrained1.pkl.
+(nn-Meter) Iteration 1: acc10 0.49700598802395207, error_configs number: 420
+
+(nn-Meter) All 8359 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_se.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for se in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_se_finegrained2.csv.
+(nn-Meter) training data size: 10027, test data size: 2507
+(nn-Meter) rmse: 0.1626; rmspe: 31.3151; error: 0.4971; 5% accuracy: 0.2577; 10% accuracy: 0.4196; 15% accuracy: 0.5445.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_se_finegrained2.csv
+(nn-Meter) Saved the predictor for se in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/se_finegrained2.pkl.
+(nn-Meter) Iteration 2: acc10 0.4196250498603909, error_configs number: 1455
+
+(nn-Meter) All 1500 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_global-avgpool.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for global-avgpool in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_global-avgpool_prior.csv.
+(nn-Meter) training data size: 1200, test data size: 300
+(nn-Meter) rmse: 0.0079; rmspe: 37.6192; error: 0.6410; 5% accuracy: 0.8733; 10% accuracy: 0.9067; 15% accuracy: 0.9167.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_global-avgpool_prior.csv
+(nn-Meter) Saved the predictor for global-avgpool in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/global-avgpool_prior.pkl.
+(nn-Meter) Iteration 0: acc10 0.9066666666666666, error_configs number: 28
+
+(nn-Meter) All 550 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_global-avgpool.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for global-avgpool in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_global-avgpool_finegrained1.csv.
+(nn-Meter) training data size: 1640, test data size: 410
+(nn-Meter) rmse: 0.0068; rmspe: 28.5318; error: 0.3939; 5% accuracy: 0.8732; 10% accuracy: 0.9122; 15% accuracy: 0.9415.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_global-avgpool_finegrained1.csv
+(nn-Meter) Saved the predictor for global-avgpool in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/global-avgpool_finegrained1.pkl.
+(nn-Meter) Iteration 1: acc10 0.9121951219512195, error_configs number: 36
+
+(nn-Meter) All 708 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_global-avgpool.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for global-avgpool in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_global-avgpool_finegrained2.csv.
+(nn-Meter) training data size: 2206, test data size: 552
+(nn-Meter) rmse: 0.0058; rmspe: 21.5387; error: 0.2797; 5% accuracy: 0.8496; 10% accuracy: 0.9167; 15% accuracy: 0.9402.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_global-avgpool_finegrained2.csv
+(nn-Meter) Saved the predictor for global-avgpool in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/global-avgpool_finegrained2.pkl.
+(nn-Meter) Iteration 2: acc10 0.9166666666666666, error_configs number: 46
+
+(nn-Meter) All 1500 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_bnrelu.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for bnrelu in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_bnrelu_prior.csv.
+(nn-Meter) training data size: 1200, test data size: 300
+(nn-Meter) rmse: 0.2208; rmspe: 45.3903; error: 0.5209; 5% accuracy: 0.2367; 10% accuracy: 0.3933; 15% accuracy: 0.5067.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_bnrelu_prior.csv
+(nn-Meter) Saved the predictor for bnrelu in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/bnrelu_prior.pkl.
+(nn-Meter) Iteration 0: acc10 0.3933333333333333, error_configs number: 182
+
+(nn-Meter) All 3477 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_bnrelu.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for bnrelu in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_bnrelu_finegrained1.csv.
+(nn-Meter) training data size: 3981, test data size: 996
+(nn-Meter) rmse: 0.1136; rmspe: 50.2495; error: 0.3993; 5% accuracy: 0.1817; 10% accuracy: 0.3424; 15% accuracy: 0.4699.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_bnrelu_finegrained1.csv
+(nn-Meter) Saved the predictor for bnrelu in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/bnrelu_finegrained1.pkl.
+(nn-Meter) Iteration 1: acc10 0.34236947791164657, error_configs number: 655
+
+(nn-Meter) All 12745 models profiling complete. Save all success profiled results to /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profiled_bnrelu.json Failed information are saved in /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/profile_error.log (if any)
+(nn-Meter) Saved the feature table of all data for bnrelu in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/Data_bnrelu_finegrained2.csv.
+(nn-Meter) training data size: 14177, test data size: 3545
+(nn-Meter) rmse: 0.1125; rmspe: 47.7543; error: 0.4349; 5% accuracy: 0.1904; 10% accuracy: 0.3591; 15% accuracy: 0.4914.
+(nn-Meter) All test data and predicted results are stored in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/collection/TestResult_bnrelu_finegrained2.csv
+(nn-Meter) Saved the predictor for bnrelu in path /mnt/sda/nn-Meter/workspaces/pytorch_cpu/predictor_build/results/predictors/bnrelu_finegrained2.pkl.
+(nn-Meter) Iteration 2: acc10 0.35909732016925244, error_configs number: 2272
+

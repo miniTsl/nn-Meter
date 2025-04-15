@@ -15,7 +15,7 @@ class PytorchCPULatencyParser(BaseParser):
         self.cpu_time_max = content['latency_max']
         self.cpu_time_min = content['latency_min']
 
-        # # using torch.profile to profile the model
+        # # using torch.profile to profile the model layer by layer
         # self.layers = self._parse_layers(content)
         # # the first line of pytorch profiler
         # self.runs = self.layers[0]["# of Calls"]

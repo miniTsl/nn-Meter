@@ -51,6 +51,7 @@ class BaseBackend:
         A parser parses the stdout from devices profiler and get required metrics. In the implementation of a parser, interface
         of `Parser.parse()` and property of `Parser.results()` are required.
     """
+    # class variable for the whole class and its instances
     profiler_class = None
     parser_class = None
 

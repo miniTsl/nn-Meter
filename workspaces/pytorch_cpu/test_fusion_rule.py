@@ -5,7 +5,7 @@ builder_config.init(workspace)
 
 # generate testcases for op fusion rule testing
 from nn_meter.builder.backend_meta.fusion_rule_tester import generate_testcases
-# return contains model structure and input_shape as for torch framework)
+# return contains model structure and input_shape as for torch framework
 origin_testcases = generate_testcases()
 
 # connect to backend
